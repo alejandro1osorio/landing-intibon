@@ -32,16 +32,16 @@ export default {
       activeIndex: null,
       questions: [
         {
-          title: "¿Qué tipo de filtros solares tiene Sun Pro?",
-          content: "content",
+          title: "¿Qué pH tienen los jabones íntimos de Intibon?",
+          content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, possimus.",
         },
         {
-          title: "¿Sun Pro es apto para pieles sensibles?",
-          content: "content",
+          title: "¿Los jabones íntimos Intibon son Syndet?",
+          content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, possimus.",
         },
         {
-          title: "¿Sun Pro es de amplio espectro?",
-          content: "content",
+          title: "¿Intibon tiene productos con prebióticos para la zona íntima?",
+          content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, possimus.",
         },
       ],
     };
