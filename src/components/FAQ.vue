@@ -110,8 +110,8 @@ align-items: center;
 }
 
 .accordion-item {
-  border: 1px solid #E6DED1;
-  border-left-color: #e2cbb0;
+  border: 1px solid #DBEBEB;
+  border-left-color: #C5E5E4;
   border-left-width: 10px;
   border-radius: 8px;
   margin-bottom: 10px;
@@ -119,7 +119,7 @@ align-items: center;
 }
 
 .accordion-header {
-  background: #E6DED1;
+  background: #DBEBEB;
   color: #6F717B;
   padding: 15px;
   text-align: left;
@@ -143,7 +143,7 @@ align-items: center;
 }
 
 .accordion-icon {
-  color: #F6A81D;
+  color: #0092B4;
   font-size: 20px;
   font-weight: bold;
   transition: transform 0.3s;
