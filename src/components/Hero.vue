@@ -40,18 +40,22 @@ export default {
 }
 
 @media (max-width: 768px) {
+  .hero {
+    height: 60vh;
+  }
+
   .centered-image {
     width: 35%; /* Increase size for smaller screens */
     max-width: 175px;
-    margin-bottom: 3rem; /* Increase margin for smaller screens */
+    margin-bottom: 3rem; 
   }
 }
 
 @media (max-width: 480px) {
   .centered-image {
-    width: 50%; /* Further increase size for very small screens */
+    width: 50%; 
     max-width: 200px;
-    margin-bottom: 6rem; /* Further increase margin for very small screens */
+    margin-bottom: 0; 
   }
 }
 </style>
