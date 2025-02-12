@@ -252,7 +252,7 @@ export default {
 }
 
 .content-tab {
-  border: 2px solid orange;
+  border: 2px solid #8D7199;
   border-radius: 0px 12px 12px 12px;
   width: 60%;
   padding: 20px;
@@ -282,12 +282,12 @@ button {
 
 button:hover {
   color: white;
-  background-color: orange;
+  background-color: #8D7199;
 }
 
 button:active,
 button:focus {
-  background-color: orange;
+  background-color: #8D7199;
   color: #fff;
 }
 
