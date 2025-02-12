@@ -22,15 +22,15 @@
 <script>
 // Importamos los componentes de las páginas
 import PageOne from './PageOne.vue';
-/* import PageTwo from './PageTwo.vue';
-import PageThree from './PageThree.vue'; */
+import PageTwo from './PageTwo.vue';
+import PageThree from './PageThree.vue';
 
 export default {
   name: 'Slider',
   components: {
     PageOne,
-    /* PageTwo,
-    PageThree, */
+    PageTwo,
+    PageThree,
   },
   data() {
     return {

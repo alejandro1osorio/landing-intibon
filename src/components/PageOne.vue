@@ -41,15 +41,9 @@
             <span class="line left"></span>
           </div>
 
-          <div class="box top-right">
-            <img src="../assets/beneficios-productos/icon5.png" alt="Sin Parabenos" />
-            <p style="font-size: 0.7rem;"><strong>Lumiskim</strong> Antioxidante, antipolución y reduce manchas.</p>
-            <span class="line left"></span>
-          </div>
-
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
-            <img src="../assets/beneficios-productos/icon6.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
+            <img src="../assets/beneficios-productos/icon5.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
             <p><strong>Vitamina E</strong> Retardo del envejecimiento de las células de la piel y antioxidante.</p>
             <span class="line left"></span>
           </div>
@@ -194,7 +188,7 @@ export default {
   position: absolute;
   width: 94px;
   height: 2px;
-  background-color: #EFCBB5;
+  background-color: #00ABA5;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -212,8 +206,8 @@ export default {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: #EFCBB5;
-  border: 2px solid #ee9a66;
+  background-color: #00ABA5;
+  border: 2px solid #91e7e4;
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
