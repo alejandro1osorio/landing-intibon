@@ -67,7 +67,7 @@
     </div>
 
     <footer>
-      <p class="text-footer">Un solo tono se adapta de los <strong>fototipos II al IV</strong></p>
+      <p class="text-footer">Desarrollado con <strong>Ginecólogos Expertos.</strong></p>
     </footer>
   </div>
 </template>
