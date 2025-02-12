@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    
+    <Hero />
     <Blog />
     <FAQ />
     <Footer />
@@ -8,6 +8,7 @@
 </template>
 
 <script>
+import Hero from "./components/Hero.vue";
 import Blog from "./components/Blog.vue";
 import FAQ from "./components/FAQ.vue";
 import Footer from "./components/Footer.vue";
@@ -15,6 +16,7 @@ import Footer from "./components/Footer.vue";
 export default {
   name: "App",
   components: {
+    Hero,
     Blog,
     FAQ,
     Footer,
