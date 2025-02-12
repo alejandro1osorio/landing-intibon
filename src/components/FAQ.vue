@@ -120,7 +120,7 @@ align-items: center;
 
 .accordion-header {
   background: #DBEBEB;
-  color: #6F717B;
+  color: #707070;
   padding: 15px;
   text-align: left;
   font-size: 18px;
