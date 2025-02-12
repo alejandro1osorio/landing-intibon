@@ -7,13 +7,13 @@
           <a href="#" class="nav-link active">Inicio</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">Color 50 SPF</a>
+          <a href="#" class="nav-link">Higiene Íntima</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">90 SPF</a>
+          <a href="#" class="nav-link">Intibon 45+</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">50 SPF</a>
+          <a href="#" class="nav-link">Tratamiento</a>
         </li>
       </ul>
       <div class="menu-toggle" @click="toggleMenu" v-if="isMobile">
@@ -106,7 +106,7 @@ export default {
   display: block;
   width: 0;
   height: 2px;
-  background-color: #F4A61E;
+  background-color: #018EB6;
   margin: 0 auto;
   transition: width 0.3s ease;
 }
