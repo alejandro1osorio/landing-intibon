@@ -303,7 +303,7 @@ footer {
 }
 
 .text-footer {
-  color: #214F79;
+  color: #fff;
 }
 
 @media (max-width: 768px) {
