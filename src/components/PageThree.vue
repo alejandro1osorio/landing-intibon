@@ -4,9 +4,9 @@
 
     <!-- Nuevo Contenedor de Boxes Arriba de la Imagen -->
     <div class="top-box-container">
-      <div class="box" style="width: 280px; height: auto; flex-direction: row-reverse; border-radius: 170px 200px 200px 53px;">
+      <div class="box" style="width: 280px; height: auto; padding-left: 20px; flex-direction: row-reverse; border-radius: 170px 200px 200px 53px;">
         <img src="../assets/beneficios-productos/icon11.png" alt="box1" class="box-image" />
-        <p class="box-text">Único avalado por la Federación Colombiana de Obstetricia y Ginecología.</p>
+        <p class="box-text"><strong>Único avalado</strong> por la Federación Colombiana de Obstetricia y Ginecología.</p>
       </div>
       <div class="box" style="width: 280px; height: auto; border-radius: 200px 240px 90px 200px;">
         <img src="../assets/beneficios-productos/icon12.png" alt="box2" class="box-image" />
