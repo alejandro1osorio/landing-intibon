@@ -8,9 +8,9 @@
         <img src="../assets/beneficios-productos/icon11.png" alt="box1" class="box-image" />
         <p class="box-text">Único avalado por la Federación Colombiana de Obstetricia y Ginecología.</p>
       </div>
-      <div class="box" style="width: 280px; height: auto;">
+      <div class="box" style="width: 280px; height: auto; border-radius: 200px 240px 90px 200px;">
         <img src="../assets/beneficios-productos/icon12.png" alt="box2" class="box-image" />
-        <p class="box-text">Incluye 3 aplicadores</p>
+        <p class="box-text"><strong>Incluye 3 aplicadores</strong></p>
       </div>
     </div>
 
