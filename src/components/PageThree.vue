@@ -4,11 +4,11 @@
 
     <!-- Nuevo Contenedor de Boxes Arriba de la Imagen -->
     <div class="top-box-container">
-      <div class="box">
+      <div class="box" style="width: 280px; height: auto;">
         <img src="../assets/beneficios-productos/icon11.png" alt="box1" class="box-image" />
         <p class="box-text">Único avalado por la Federación Colombiana de Obstetricia y Ginecología.</p>
       </div>
-      <div class="box">
+      <div class="box" style="width: 280px; height: auto;">
         <img src="../assets/beneficios-productos/icon12.png" alt="box2" class="box-image" />
         <p class="box-text">Incluye 3 aplicadores</p>
       </div>
@@ -141,19 +141,20 @@ export default {
   background: #F3F3F3;
   padding: 10px;
   border-radius: 10px;
-  width: auto;
+  width: 200px;
+  height: auto;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .box-image {
-  width: 40px;
-  height: 40px;
+  width: 100px;
+  height: auto;
 }
 
 .box-text {
   font-weight: 400;
   color: #214F79;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .content-tab {
