@@ -1,7 +1,7 @@
 <template>
   <div class="page-grid">
     <!-- <InfoOne /> -->
-    <h1 class="page-title">Textura ligera <strong>con <strong style="border-bottom: 5px solid orange;">Color</strong></strong></h1>
+    <h1 class="page-title"><strong>Hidratante</strong> <strong style="border-bottom: 5px solid #008EB4; font-weight: 300;">íntimo</strong></h1>
 
     <div class="title-image-container">
       <img src="../assets/logos-sellos/grupo-sellos.png" alt="Imagen descriptiva" class="title-image"/>
