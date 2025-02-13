@@ -13,7 +13,7 @@
       <div class="image-container">
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
-            <p><strong>Physavie 250</strong> Calmante, regula la temperatura y para pieles sensibles.</p>
+            <p><strong>Limpia suavemente</strong> tu zona íntima.</p>
             <img src="../assets/beneficios-productos/icon6.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>

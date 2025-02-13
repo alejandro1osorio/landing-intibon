@@ -13,20 +13,20 @@
       <div class="image-container">
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
-            <p><strong>Physavie 250</strong> Calmante, regula la temperatura y para pieles sensibles.</p>
+            <p><strong>Limpia suavemente</strong> tu zona íntima.</p>
             <img src="../assets/beneficios-productos/icon1.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
           <div class="box top-left" style="flex-direction: row;">
-            <p><strong>Coenzima Q10</strong> Protección del daño por radiación UV, Antienvejecimiento e hidratante.</p>
+            <p><strong>Libre de</strong> fragancias, colorantes y parabenos.</p>
             <img src="../assets/beneficios-productos/icon2.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
-            <p><strong>Provitamina B5</strong> Hidratante, alivia diversas molestias en la piel y mejora su apariencia.</p>
+            <p>Contiene ácido láctico que <strong>ayuda con el balance</strong> del pH vaginal.</p>
             <img src="../assets/beneficios-productos/icon3.png" alt="Algodón" />
             <span class="line right"></span>
           </div>
@@ -37,14 +37,14 @@
         <div>
           <div class="box top-right">
             <img src="../assets/beneficios-productos/icon4.png" alt="Sin Parabenos" />
-            <p style="font-size: 0.7rem;"><strong>Niacinamida</strong>Reduce el enrojecimiento, manchas, mejora la función barrera de la piel y previene la aparición de arrugas.</p>
+            <p style="font-size: 0.7rem;">Hipoalergénico, ginecológica y <strong>dermatológicamente testeado.</strong></p>
             <span class="line left"></span>
           </div>
 
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
             <img src="../assets/beneficios-productos/icon5.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
-            <p><strong>Vitamina E</strong> Retardo del envejecimiento de las células de la piel y antioxidante.</p>
+            <p>Con prebiótico que estimula <strong>el desarrollo y crecimiento de bacterias beneficiosas</strong> de la flora vaginal.</p>
             <span class="line left"></span>
           </div>
         </div>
