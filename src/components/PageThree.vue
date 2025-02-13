@@ -2,9 +2,41 @@
   <div class="page-grid">
     <h1 class="page-title"><strong>Crema</strong> <strong style="border-bottom: 5px solid #008EB4; font-weight: 300;">Vaginal</strong></h1>
 
+    <!-- Nuevo Contenedor de Boxes Arriba de la Imagen -->
+    <div class="top-box-container">
+      <div class="box">
+        <img src="../assets/beneficios-productos/icon11.png" alt="box1" class="box-image" />
+        <p class="box-text">Único avalado por la Federación Colombiana de Obstetricia y Ginecología.</p>
+      </div>
+      <div class="box">
+        <img src="../assets/beneficios-productos/icon12.png" alt="box2" class="box-image" />
+        <p class="box-text">Incluye 3 aplicadores</p>
+      </div>
+    </div>
+
     <div class="image-structure">
       <div class="image-container">
         <img src="../assets/productos/producto3.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 0 26px;"/>
+      </div>
+    </div>
+
+    <!-- Nuevo Contenedor de Boxes -->
+    <div class="box-container">
+      <div class="box">
+        <img src="../assets/beneficios-productos/icon13.png" alt="box3" class="box-image" />
+        <p class="box-text">Alivia: Ardor</p>
+      </div>
+      <div class="box">
+        <img src="../assets/beneficios-productos/icon14.png" alt="box4" class="box-image" />
+        <p class="box-text">Alivia: Picazón</p>
+      </div>
+      <div class="box">
+        <img src="../assets/beneficios-productos/icon15.png" alt="box5" class="box-image" />
+        <p class="box-text">Alivia: Flujo anormal</p>
+      </div>
+      <div class="box">
+        <img src="../assets/beneficios-productos/icon16.png" alt="box6" class="box-image" />
+        <p class="box-text">Alivia: Mal olor</p>
       </div>
     </div>
 
@@ -32,7 +64,7 @@ export default {
   name: 'PageOne',
   data() {
     return {
-      activeTab: 'benefits',
+      activeTab: 'benefits'
     };
   },
   methods: {
@@ -61,6 +93,16 @@ export default {
   color: #214F79;
 }
 
+/* Estilos para el contenedor superior de cajas */
+.top-box-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
 .image-structure {
   display: flex;
   justify-content: center;
@@ -80,6 +122,38 @@ export default {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+}
+
+/* Estilos para el nuevo contenedor de boxes */
+.box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #F3F3F3;
+  padding: 10px;
+  border-radius: 10px;
+  width: auto;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box-image {
+  width: 40px;
+  height: 40px;
+}
+
+.box-text {
+  font-weight: 400;
+  color: #214F79;
+  font-size: 1rem;
 }
 
 .content-tab {
@@ -134,11 +208,5 @@ footer {
 
 .text-footer {
   color: #fff;
-}
-
-@media (max-width: 768px) {
-  .content-tab, p {
-    font-size: 0.9rem;
-  }
 }
 </style>
