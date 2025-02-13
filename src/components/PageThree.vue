@@ -138,12 +138,12 @@ export default {
   display: flex;
   align-items: center;
   gap: 10px;
-  background: #F3F3F3;
+  background: #ffffff;
   padding: 10px;
   border-radius: 10px;
   width: 200px;
   height: auto;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .box-image {
