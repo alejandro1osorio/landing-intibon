@@ -16,7 +16,7 @@
 
     <div class="image-structure">
       <div class="image-container">
-        <img src="../assets/productos/producto3.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 0 26px;"/>
+        <img src="../assets/productos/producto3.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 50px 0;"/>
       </div>
     </div>
 
@@ -119,7 +119,7 @@ export default {
 }
 
 .image-container img {
-  max-width: 100%;
+  max-width: 600px; /* 100% */
   height: auto;
   border-radius: 10px;
 }
