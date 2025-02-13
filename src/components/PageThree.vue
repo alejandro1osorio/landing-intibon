@@ -4,7 +4,7 @@
 
     <!-- Nuevo Contenedor de Boxes Arriba de la Imagen -->
     <div class="top-box-container">
-      <div class="box" style="width: 280px; height: auto; flex-direction: row-reverse;">
+      <div class="box" style="width: 280px; height: auto; flex-direction: row-reverse; border-radius: 170px 200px 200px 53px;">
         <img src="../assets/beneficios-productos/icon11.png" alt="box1" class="box-image" />
         <p class="box-text">Único avalado por la Federación Colombiana de Obstetricia y Ginecología.</p>
       </div>
@@ -24,19 +24,19 @@
     <div class="box-container">
       <div class="box">
         <img src="../assets/beneficios-productos/icon13.png" alt="box3" class="box-image" />
-        <p class="box-text">Alivia: <br> Ardor</p>
+        <p class="box-text"><strong>Alivia: <br> Ardor</strong></p>
       </div>
       <div class="box">
         <img src="../assets/beneficios-productos/icon14.png" alt="box4" class="box-image" />
-        <p class="box-text">Alivia: <br> Picazón</p>
+        <p class="box-text"><strong>Alivia: <br> Picazón</strong></p>
       </div>
       <div class="box">
         <img src="../assets/beneficios-productos/icon15.png" alt="box5" class="box-image" />
-        <p class="box-text">Alivia: <br> Flujo <br> anormal</p>
+        <p class="box-text"><strong>Alivia: <br> Flujo <br> anormal</strong></p>
       </div>
       <div class="box">
         <img src="../assets/beneficios-productos/icon16.png" alt="box6" class="box-image" />
-        <p class="box-text">Alivia: <br> Mal olor</p>
+        <p class="box-text"><strong>Alivia: <br> Mal olor</strong></p>
       </div>
     </div>
 
