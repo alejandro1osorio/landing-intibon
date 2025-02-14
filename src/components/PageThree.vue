@@ -6,6 +6,7 @@
     <div class="top-box-container">
       <div class="box" style="width: 280px; height: auto; padding-left: 20px; flex-direction: row-reverse; border-radius: 170px 200px 200px 53px;">
         <img src="../assets/beneficios-productos/icon11.png" alt="box1" class="box-image" />
+          <span class="line" style="transform: rotate(-90deg) translate(-93px, 0px);"></span>
         <p class="box-text"><strong>Único avalado</strong> por la Federación Colombiana de Obstetricia y Ginecología.</p>
       </div>
       <div class="box" style="width: 280px; height: auto; border-radius: 200px 240px 90px 200px;">
@@ -155,6 +156,27 @@ export default {
   font-weight: 400;
   color: #214F79;
   font-size: 0.8rem;
+}
+
+.line {
+  position: absolute;
+  width: 94px;
+  height: 2px;
+  background-color: #8D7199;
+  /* top: 50%;
+  transform: translateY(-50%); */
+}
+
+.line::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #8D7199;
+  border: 2px solid #c5a6d3;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .content-tab {
