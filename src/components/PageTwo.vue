@@ -310,9 +310,9 @@ footer {
   .title-image {
     max-width: 80%;
   }
-  .box {
+  /* .box {
     visibility: hidden;
-  }
+  } */
 
   .content-tab, p {
     font-size: 0.9rem;
