@@ -304,5 +304,13 @@ footer {
   .decorative-image {
     display: none;
   }
+
+  .box {
+    visibility: hidden;
+  }
+
+  .image-container img {
+    max-width: 350px;
+  }
 }
 </style>

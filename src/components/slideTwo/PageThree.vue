@@ -341,9 +341,9 @@ footer {
   .title-image {
     max-width: 80%;
   }
-  /* .box {
+  .box {
     visibility: hidden;
-  } */
+  }
   .additional-text {
     font-size: 0.9rem;
     max-width: 90%;
