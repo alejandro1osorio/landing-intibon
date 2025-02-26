@@ -1,6 +1,6 @@
 <template>
   <div class="blog-container">
-    <h1>Artículos Recientes</h1>
+    <h1>Artículos <strong>Recientes</strong></h1>
     <div class="grid-container">
       <div class="article" v-for="article in articles" :key="article.id">
         <img :src="article.image" alt="Imagen del artículo" class="article-image" />
@@ -35,8 +35,9 @@ export default {
 
 h1 {
   font-size: 2.5em;
-  color: #2c3e50;
+  color: #008DB5;
   margin-bottom: 30px;
+  font-weight: 300;
 }
 
 .grid-container {

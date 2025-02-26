@@ -79,13 +79,13 @@ export default {
   text-align: center;
   font-size: 36px;
   /* font-family: "Arial", sans-serif; */
-  color: #1F4F7A;
+  color: #008DB5;
   margin-bottom: 20px;
   font-weight: 400;
 }
 
 .faq-title .highlight {
-  color: #1F4F7A; /* Color para "Frecuentes" */
+  color: #008DB5; /* Color para "Frecuentes" */
   font-weight: bold; /* Negrita para "Frecuentes" */
 }
 
