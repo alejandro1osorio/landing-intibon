@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Hero />
+    <TextComponent />
     <!-- tema 1 -->
     <InfoOne />
     <Slider />
@@ -21,6 +22,7 @@
 
 <script>
 import Hero from "./components/Hero.vue";
+import TextComponent from "./components/TextComponent.vue";
 
 /* tema 1 */
 import InfoOne from "./components/InfoOne.vue";
@@ -42,6 +44,7 @@ export default {
   name: "App",
   components: {
     Hero,
+    TextComponent,
     /* tema 1 */
     InfoOne,
     Slider,
