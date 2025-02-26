@@ -6,12 +6,12 @@
     </div>
 
     <!-- Botones de navegación -->
-    <button class="nav-button left" @click="prevPage" :disabled="currentPage === 0">
+    <button class="nav-button left" @click="prevPage">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="hotpink" width="24px" height="24px">
         <path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6z"/>
       </svg>
     </button>
-    <button class="nav-button right" @click="nextPage" :disabled="currentPage === pages.length - 1">
+    <button class="nav-button right" @click="nextPage">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="hotpink" width="24px" height="24px">
         <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z"/>
       </svg>
@@ -20,7 +20,6 @@
 </template>
 
 <script>
-// Importamos los componentes de las páginas
 import PageOne from './PageOne.vue';
 import PageTwo from './PageTwo.vue';
 import PageThree from './PageThree.vue';
@@ -40,14 +39,10 @@ export default {
   },
   methods: {
     nextPage() {
-      if (this.currentPage < this.pages.length - 1) {
-        this.currentPage++;
-      }
+      this.currentPage = (this.currentPage + 1) % this.pages.length;
     },
     prevPage() {
-      if (this.currentPage > 0) {
-        this.currentPage--;
-      }
+      this.currentPage = (this.currentPage - 1 + this.pages.length) % this.pages.length;
     },
   },
 };
