@@ -1,5 +1,5 @@
 <template>
-  <div class="parent" id="50color">
+  <div class="parent" id="45">
     <div class="div1">
       <h1 class="title">Intibon <strong style="border-bottom: 5px solid #008EB4;">45+</strong></h1>
       <p class="description">Intibon lanza la línea especializada Intibon 45+ desarrollada con ginecólogo experto para solucionar las principales <br> necesidades de las mujeres necesidades de las mujeres <strong>en etapa de menopausia.</strong> La menopausia indica el cese de la vida reproductiva de <strong>la mujer. Durante este proceso natural, la mujer puede experimentar cambios en el bienestar intimo.</strong></p>
@@ -171,6 +171,10 @@ export default {
 
   .div3 {
     grid-area: 4 / 1 / 5 / 7;
+  }
+
+  .div3 .image-centered {
+    max-width: 90%;
   }
 }
 </style>

@@ -4,16 +4,16 @@
     <nav class="header-nav">
       <ul class="nav-list" v-if="isMenuOpen || !isMobile">
         <li class="nav-item">
-          <a href="#" class="nav-link active">Inicio</a>
+          <a href="#inicio" class="nav-link active">Inicio</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">Higiene Íntima</a>
+          <a href="#higiene" class="nav-link">Higiene Íntima</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">Intibon 45+</a>
+          <a href="#45" class="nav-link">Intibon 45+</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">Tratamiento</a>
+          <a href="#tratamiento" class="nav-link">Tratamiento</a>
         </li>
       </ul>
       <div class="menu-toggle" @click="toggleMenu" v-if="isMobile">
