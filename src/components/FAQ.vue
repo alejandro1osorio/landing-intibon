@@ -68,7 +68,7 @@ export default {
 .top-line {
   width: 15%;
   height: 2px;
-  background-color: #0077b6;
+  background-color: #95D3F8;
   position: absolute;
   top: 0;
   left: 50%;
@@ -167,7 +167,7 @@ align-items: center;
 .bottom-line {
   width: 30%; 
   height: 2px; 
-  background-color: #0077b6; 
+  background-color: #95D3F8; 
   border-radius: 2px;
   position: absolute;
   bottom: -14px; 

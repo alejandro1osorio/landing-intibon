@@ -51,7 +51,7 @@ p {
 
 .underline {
   width: 200px;
-  border-bottom: 2px solid #0077b6;
+  border-bottom: 2px solid #95D3F8;
   margin-top: 10px;
 }
 </style>
