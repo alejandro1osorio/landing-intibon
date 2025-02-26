@@ -7,6 +7,8 @@
       <img src="../../assets/logos-sellos/grupo-sellos.png" alt="Imagen descriptiva" class="title-image"/>
     </div>
 
+    <p class="additional-text">La disminución de los niveles de estrógenos en la menopausia provoca que los tejidos vaginales se vuelvan más <br> secos. Esta afección, que se conoce como atrofia o sequedad vaginal, puede causar dispareunia.<sup>2,3</sup></p>
+
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
       <!-- Imagen en el centro -->
@@ -130,6 +132,15 @@ export default {
   display: flex;
   justify-content: center;
   margin: 10px 0;
+}
+
+.additional-text {
+  text-align: center;
+  font-size: 1rem;
+  color: #214F79;
+  margin: 20px 20px;
+  max-width: 80%;
+  line-height: 1.2;
 }
 
 .title-image {
@@ -333,6 +344,10 @@ footer {
   /* .box {
     visibility: hidden;
   } */
+  .additional-text {
+    font-size: 0.9rem;
+    max-width: 90%;
+  }
 
   .content-tab, p {
     font-size: 0.9rem;

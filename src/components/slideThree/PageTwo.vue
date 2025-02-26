@@ -1,6 +1,9 @@
 <template>
   <div class="page-grid">
+    <img src="../../assets/logos-sellos/sello3.png" alt="Decorative Image" class="decorative-image" />
     <h1 class="page-title"><strong>Crema</strong> <strong style="border-bottom: 5px solid #008EB4; font-weight: 300;">Vaginal</strong></h1>
+
+    <p class="additional-text">El clotrimazol es el tratamiento de primera línea para <br> tratar infecciones vaginales causadas por hongos.</p>
 
     <!-- Nuevo Contenedor de Boxes Arriba de la Imagen -->
     <div class="top-box-container">
@@ -118,6 +121,22 @@ export default {
   font-weight: 300;
   text-align: center;
   color: #214F79;
+}
+
+.decorative-image {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 100px;
+  height: auto;
+}
+
+.additional-text {
+  text-align: center;
+  font-size: 1rem;
+  color: #214F79;
+  margin: 20px 20px;
+  max-width: 80%;
 }
 
 /* Estilos para el contenedor superior de cajas */
@@ -275,6 +294,15 @@ footer {
 @media (max-width: 768px) {
   .page-grid {
     justify-content: center;
+  }
+
+  .additional-text {
+    font-size: 0.9rem;
+    max-width: 90%;
+  }
+
+  .decorative-image {
+    display: none;
   }
 }
 </style>
