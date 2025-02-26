@@ -58,7 +58,15 @@
       <button @click="setActiveTab('usage')">Modo de uso</button>
       <button @click="setActiveTab('composition')">Composición</button>
     </div>
-    <div class="content-tab">
+    <div v-if="activeTab" class="content-tab">
+      <div class="tab-header">
+        <button class="close-btn" @click="closeTab">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 18L18 6M6 6L18 18" stroke="#5d75b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+
       <p v-if="activeTab === 'benefits'" class="text-tab">
         Agite antes de usar. Aplicar uniformemente sobre la piel. Esperar 15 minutos antes de exponerse al sol. <strong>Reaplicar cada 2 horas</strong> o después de un tiempo prolongado en el sol o de mucha transpiración. Usar diariamente
       </p>
@@ -73,20 +81,20 @@
 </template>
 
 <script>
-/* import InfoOne from './InfoOne.vue'; */
-
 export default {
   name: 'PageOne',
-  /* components: { InfoOne }, */
   data() {
     return {
-      activeTab: 'benefits',
+      activeTab: '',
     };
   },
   methods: {
     setActiveTab(tab) {
       this.activeTab = tab;
     },
+    closeTab() {
+      this.activeTab = '';
+    }
   },
 };
 </script>
@@ -291,6 +299,18 @@ button:focus {
   color: #fff;
 }
 
+.tab-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+.close-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #E4016A;
+}
 
 footer {
   background: #00ABA5; 
