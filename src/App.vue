@@ -4,6 +4,9 @@
     <InfoOne />
     <Slider />
 
+    <InfoTwo />
+
+    <InfoThree />
 
     <Blog />
     <FAQ />
@@ -14,7 +17,11 @@
 <script>
 import Hero from "./components/Hero.vue";
 import Slider from "./components/Slider.vue";
+
 import InfoOne from "./components/InfoOne.vue";
+import InfoTwo from "./components/InfoTwo.vue";
+import InfoThree from "./components/InfoThree.vue";
+
 import Blog from "./components/Blog.vue";
 import FAQ from "./components/FAQ.vue";
 import Footer from "./components/Footer.vue";
@@ -25,6 +32,8 @@ export default {
     Hero,
     InfoOne,
     Slider,
+    InfoTwo,
+    InfoThree,
     Blog,
     FAQ,
     Footer,
