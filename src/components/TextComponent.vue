@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h2>
-      Para <span class="highlight">Intibon</span>, el bienestar íntimo es un <br>
+      Para Intibon, el bienestar íntimo es un <br>
       <span class="bold-text">estado de tranquilidad, equilibrio y plenitud</span>
     </h2>
     <p>
