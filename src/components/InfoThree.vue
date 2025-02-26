@@ -8,7 +8,7 @@
       <img src="../assets/otros/tema3.png" alt="Placeholder Image" class="image" />
     </div>
     <div class="div4">
-      <img src="../assets/logos-sellos/grupo-sellos.png" alt="Placeholder Image" class="image-centered" />
+      <img src="../assets/logos-sellos/sello3.png" alt="Placeholder Image" class="image-centered" />
     </div>
     <div class="div3">
       <img src="../assets/productos/grupo-productos3.png" alt="Placeholder Image" class="image-centered" />
