@@ -1,7 +1,7 @@
 <template>
   <div class="page-grid">
     <!-- <InfoOne /> -->
-    <h1 class="page-title"><strong>Hidratante</strong> <strong style="border-bottom: 5px solid #008EB4; font-weight: 300;">íntimo</strong></h1>
+    <h1 class="page-title">Jabón <strong>Íntimo</strong> <strong style="border-bottom: 5px solid #008EB4; font-weight: 300;">Syndet</strong></h1>
 
     <div class="title-image-container">
       <img src="../assets/logos-sellos/grupo-sellos.png" alt="Imagen descriptiva" class="title-image"/>
@@ -13,38 +13,38 @@
       <div class="image-container">
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
-            <p><strong>No altera el pH fisiológico</strong> de la zona vaginal y no mancha la ropa interior. No es agresivo al látex.</p>
-            <img src="../assets/beneficios-productos/icon6.png" alt="Hidrosense" />
+            <p><strong>Limpia suavemente</strong> tu zona íntima.</p>
+            <img src="../assets/beneficios-productos/icon1.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
           <div class="box top-left" style="flex-direction: row;">
-            <p><strong>Libre de</strong> estrógenos, fragancias y parabenos.</p>
-            <img src="../assets/beneficios-productos/icon7.png" alt="Hidrosense" />
+            <p><strong>Libre de</strong> fragancias, colorantes y parabenos.</p>
+            <img src="../assets/beneficios-productos/icon2.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
-            <p style="font-size: 0.7rem;"><strong>Rehidratan el tejido mucoso seco,</strong> se absorben en la piel y se adhieren al revestimiento vaginal, mimetizando las secreciones vaginales.</p>
-            <img src="../assets/beneficios-productos/icon8.png" alt="Algodón" />
+            <p>Contiene ácido láctico que <strong>ayuda con el balance</strong> del pH vaginal.</p>
+            <img src="../assets/beneficios-productos/icon3.png" alt="Algodón" />
             <span class="line right"></span>
           </div>
         </div>
         
-        <img src="../assets/productos/producto2.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 0 26px;"/>
+        <img src="../assets/productos/producto1-2.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 0 80px;"/>
         
         <div>
           <div class="box top-right">
-            <img src="../assets/beneficios-productos/icon9.png" alt="Sin Parabenos" />
-            <p style="font-size: 0.7rem;">Favorece la hidratación de la zona íntima externa.</p>
+            <img src="../assets/beneficios-productos/icon4.png" alt="Sin Parabenos" />
+            <p style="font-size: 0.7rem;">Hipoalergénico, ginecológica y <strong>dermatológicamente testeado.</strong></p>
             <span class="line left"></span>
           </div>
 
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
-            <img src="../assets/beneficios-productos/icon10.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
-            <p>Hipoalergénico, ginecológica y <strong>dermatológicamente testeado.</strong></p>
+            <img src="../assets/beneficios-productos/icon5.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
+            <p>Con prebiótico que estimula <strong>el desarrollo y crecimiento de bacterias beneficiosas</strong> de la flora vaginal.</p>
             <span class="line left"></span>
           </div>
         </div>
@@ -60,7 +60,7 @@
     </div>
     <div class="content-tab">
       <p v-if="activeTab === 'benefits'" class="text-tab">
-        INTIBON® 45+ Gel Hidratante íntimo que contiene ácido hialurónico, Vitamina E y un complejo hidratante, ayudan a brindar un efecto de hidratación y sensación de bienestar en tu zona íntima externa. <strong>No altera el pH fisiológico de la zona y no mancha la ropa interior.</strong>
+        Agite antes de usar. Aplicar uniformemente sobre la piel. Esperar 15 minutos antes de exponerse al sol. <strong>Reaplicar cada 2 horas</strong> o después de un tiempo prolongado en el sol o de mucha transpiración. Usar diariamente
       </p>
       <p v-if="activeTab === 'usage'">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, dignissimos.</p>
       <p v-if="activeTab === 'composition'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, obcaecati?</p>
@@ -188,7 +188,7 @@ export default {
   position: absolute;
   width: 94px;
   height: 2px;
-  background-color: #8D7199;
+  background-color: #00ABA5;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -206,8 +206,8 @@ export default {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: #8D7199;
-  border: 2px solid #c5a6d3;
+  background-color: #00ABA5;
+  border: 2px solid #91e7e4;
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
@@ -252,7 +252,7 @@ export default {
 }
 
 .content-tab {
-  border: 2px solid #8D7199;
+  border: 2px solid #00ABA5;
   border-radius: 0px 12px 12px 12px;
   width: 60%;
   padding: 20px;
@@ -282,18 +282,18 @@ button {
 
 button:hover {
   color: white;
-  background-color: #8D7199;
+  background-color: #00ABA5;
 }
 
 button:active,
 button:focus {
-  background-color: #8D7199;
+  background-color: #00ABA5;
   color: #fff;
 }
 
 
 footer {
-  background: #8D7199; 
+  background: #00ABA5; 
   font-size: 1.5rem;
   width: 100%; 
   margin-top: 30px;
@@ -310,9 +310,9 @@ footer {
   .title-image {
     max-width: 80%;
   }
-  /* .box {
+  .box {
     visibility: hidden;
-  } */
+  }
 
   .content-tab, p {
     font-size: 0.9rem;
