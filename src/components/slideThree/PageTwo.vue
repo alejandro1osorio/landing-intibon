@@ -1,5 +1,6 @@
 <template>
   <div class="page-grid">
+    <div class="top-line"></div>
     <img src="../../assets/logos-sellos/sello3.png" alt="Decorative Image" class="decorative-image" />
     <h1 class="page-title"><strong>Crema</strong> <strong style="border-bottom: 5px solid #008EB4; font-weight: 300;">Vaginal</strong></h1>
 
@@ -114,6 +115,16 @@ export default {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
+}
+
+.top-line {
+  width: 15%;
+  height: 2px;
+  background-color: #0077b6;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .page-title {

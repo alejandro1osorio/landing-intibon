@@ -1,6 +1,6 @@
 <template>
   <div class="page-grid">
-    <!-- <InfoOne /> -->
+    <div class="top-line"></div>
     <h1 class="page-title">Jabón <strong>Íntimo</strong> <strong style="border-bottom: 5px solid #008EB4; font-weight: 300;">Syndet</strong></h1>
 
     <div class="title-image-container">
@@ -117,6 +117,16 @@ export default {
   /* padding: 0 20px; */
   box-sizing: border-box;
   /* gap: 20px; */
+}
+
+.top-line {
+  width: 15%;
+  height: 2px;
+  background-color: #0077b6;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .page-title {

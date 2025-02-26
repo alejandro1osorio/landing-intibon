@@ -50,7 +50,7 @@ p {
 }
 
 .underline {
-  width: 90px;
+  width: 200px;
   border-bottom: 2px solid #0077b6;
   margin-top: 10px;
 }
