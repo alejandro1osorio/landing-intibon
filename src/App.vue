@@ -1,13 +1,17 @@
 <template>
   <div id="app">
     <Hero />
+    <!-- tema 1 -->
     <InfoOne />
     <Slider />
 
+    <!-- tema 2 -->
     <InfoTwo />
     <SliderTwo />
 
+    <!-- tema 3 -->
     <InfoThree />
+    <SliderThree />
 
     <Blog />
     <FAQ />
@@ -26,7 +30,9 @@ import Slider from "./components/Slider.vue";
 import InfoTwo from "./components/InfoTwo.vue";
 import SliderTwo from "./components/SliderTwo.vue";
 
+/* tema 3 */
 import InfoThree from "./components/InfoThree.vue";
+import SliderThree from "./components/SliderThree.vue";
 
 import Blog from "./components/Blog.vue";
 import FAQ from "./components/FAQ.vue";
@@ -44,7 +50,10 @@ export default {
     InfoTwo,
     SliderTwo,
     
+    /* tema 3 */
     InfoThree,
+    SliderThree,
+
     Blog,
     FAQ,
     Footer,
