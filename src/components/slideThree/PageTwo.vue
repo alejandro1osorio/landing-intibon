@@ -18,7 +18,7 @@
 
     <div class="image-structure">
       <div class="image-container">
-        <img src="../../assets/productos/producto3.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 50px 0;"/>
+        <img src="../../assets/productos/producto3-2.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 50px 0;"/>
       </div>
     </div>
 
