@@ -1,5 +1,6 @@
 <template>
   <div class="faq-container">
+    <div class="top-line"></div>
     <h2 class="faq-title">
       Preguntas <span class="highlight">Frecuentes</span>
     </h2>
@@ -62,6 +63,16 @@ export default {
   margin: 20px;
   position: relative;
   padding-bottom: 10px;
+}
+
+.top-line {
+  width: 15%;
+  height: 2px;
+  background-color: #0077b6;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .faq-title {
@@ -154,9 +165,9 @@ align-items: center;
 }
 
 .bottom-line {
-  width: 50%; 
-  height: 4px; 
-  background-color: #AFD8EC; 
+  width: 30%; 
+  height: 2px; 
+  background-color: #0077b6; 
   border-radius: 2px;
   position: absolute;
   bottom: -14px; 

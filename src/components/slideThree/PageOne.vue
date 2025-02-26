@@ -251,6 +251,7 @@ export default {
 .button-group {
   display: flex;
   gap: 10px;
+  margin-top: 20px;
 }
 
 button {
@@ -296,6 +297,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  visibility: hidden; /* footer oculto */
 }
 
 .text-footer {
