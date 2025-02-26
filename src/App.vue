@@ -5,6 +5,7 @@
     <Slider />
 
     <InfoTwo />
+    <SliderTwo />
 
     <InfoThree />
 
@@ -16,10 +17,15 @@
 
 <script>
 import Hero from "./components/Hero.vue";
+
+/* tema 1 */
+import InfoOne from "./components/InfoOne.vue";
 import Slider from "./components/Slider.vue";
 
-import InfoOne from "./components/InfoOne.vue";
+/* tema 2 */
 import InfoTwo from "./components/InfoTwo.vue";
+import SliderTwo from "./components/SliderTwo.vue";
+
 import InfoThree from "./components/InfoThree.vue";
 
 import Blog from "./components/Blog.vue";
@@ -30,9 +36,14 @@ export default {
   name: "App",
   components: {
     Hero,
+    /* tema 1 */
     InfoOne,
     Slider,
+
+    /* tema 2 */
     InfoTwo,
+    SliderTwo,
+    
     InfoThree,
     Blog,
     FAQ,
