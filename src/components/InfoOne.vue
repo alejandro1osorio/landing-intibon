@@ -113,13 +113,31 @@ export default {
 
 @media screen and (min-width: 1400px) {
   .div4 {
-    height: 110px;
+    height: 190px;
+  }
+
+  .div4 .image-centered {
+    max-width: 120%;
+    max-width: 120%;
+  }
+
+  .div3 {
+    height: 117%;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1399px) {
   .div4 {
     height: 90px;
+  }
+
+  .div4 .image-centered {
+    max-width: 116%;
+    max-height: 116%;
+  }
+
+  .div3 {
+    height: 133%;
   }
 }
 
