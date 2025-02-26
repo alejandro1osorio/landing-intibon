@@ -2,6 +2,8 @@
   <div class="page-grid">
     <h1 class="page-title"><strong>Crema</strong> <strong style="border-bottom: 5px solid #008EB4; font-weight: 300;">Vaginal</strong></h1>
 
+    <p class="additional-text">El clotrimazol es el tratamiento de primera línea para <br> tratar infecciones vaginales causadas por hongos.</p>
+
     <!-- Nuevo Contenedor de Boxes Arriba de la Imagen -->
     <div class="top-box-container">
       <div class="box" style="width: 280px; height: auto; padding-left: 20px; flex-direction: row-reverse; border-radius: 170px 200px 200px 53px;">
@@ -118,6 +120,14 @@ export default {
   font-weight: 300;
   text-align: center;
   color: #214F79;
+}
+
+.additional-text {
+  text-align: center;
+  font-size: 1rem;
+  color: #214F79;
+  margin: 20px 20px;
+  max-width: 80%;
 }
 
 /* Estilos para el contenedor superior de cajas */
@@ -275,6 +285,11 @@ footer {
 @media (max-width: 768px) {
   .page-grid {
     justify-content: center;
+  }
+
+  .additional-text {
+    font-size: 0.9rem;
+    max-width: 90%;
   }
 }
 </style>
