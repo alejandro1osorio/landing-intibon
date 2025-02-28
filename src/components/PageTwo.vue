@@ -13,7 +13,7 @@
       <div class="image-container">
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
-            <p>Diseñados para<strong>Limpiar suavemente tu zona íntima.</strong></p>
+            <p>Diseñados para<strong> Limpiar suavemente tu zona íntima.</strong></p>
             <img src="../assets/beneficios-productos/icon1.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
@@ -41,10 +41,16 @@
             <span class="line left"></span>
           </div>
 
+          <div class="box top-right">
+            <img src="../assets/beneficios-productos/icon4.png" alt="Sin Parabenos" />
+            <p style="font-size: 0.7rem;">Con prebiótico que <strong>estimula el desarrollo y crecimiento de bacterias beneficiosas de la flora vaginal.</strong></p>
+            <span class="line left"></span>
+          </div>
+
           <!-- Contenedor inferior derecho -->
-          <div class="box bottom-right">
+          <div class="box bottom-right" style="width: 293px;">
             <img src="../assets/beneficios-productos/icon5.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
-            <p>Con prebiótico que estimula <strong>el desarrollo y crecimiento de bacterias beneficiosas</strong> de la flora vaginal.</p>
+            <p>Tela libre de plástico.</p>
             <span class="line left"></span>
           </div>
         </div>

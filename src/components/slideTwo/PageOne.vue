@@ -14,21 +14,21 @@
       <!-- Imagen en el centro -->
       <div class="image-container">
         <div class="container-item">
-          <div class="box top-left" style="flex-direction: row;">
-            <p><strong>No altera el pH fisiológico</strong> de la zona vaginal y no mancha la ropa interior. No es agresivo al látex.</p>
+          <div class="box top-left" style="flex-direction: row; width: 302px;">
+            <p>Ayuda a lograr un efecto inmediato y duradero <strong>combatiendo los síntomas de la sequedad vulvovaginal.</strong></p>
             <img src="../../assets/beneficios-productos/icon6.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
           <div class="box top-left" style="flex-direction: row;">
-            <p><strong>Libre de</strong> estrógenos, fragancias y parabenos.</p>
+            <p><strong>No altera el pH fisiológico </strong>de la zona vaginal y no mancha la ropa interior. No es agresivo al látex.</p>
             <img src="../../assets/beneficios-productos/icon7.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
-            <p style="font-size: 0.7rem;"><strong>Rehidratan el tejido mucoso seco,</strong> se absorben en la piel y se adhieren al revestimiento vaginal, mimetizando las secreciones vaginales.</p>
+            <p style="font-size: 0.7rem;"><strong>Rehidratan el tejido mucoso seco,</strong> se absorben en la piel y se adhieren al revestimiento vaginal, <strong>mimetizando las secreciones vaginales.</strong></p>
             <img src="../../assets/beneficios-productos/icon8.png" alt="Algodón" />
             <span class="line right"></span>
           </div>
@@ -38,15 +38,21 @@
         
         <div>
           <div class="box top-right">
-            <img src="../../assets/beneficios-productos/icon9.png" alt="Sin Parabenos" />
-            <p style="font-size: 0.7rem;">Favorece la hidratación de la zona íntima externa.</p>
+            <img src="../../assets/beneficios-productos/icon10.png" alt="Sin Parabenos" />
+            <p>Hipoalergénico, ginecológica y <strong>dermatológicamente testeado.</strong></p>
+            <span class="line left"></span>
+          </div>
+
+          <div class="box top-right">
+            <img src="../../assets/beneficios-productos/icon10.png" alt="Sin Parabenos" />
+            <p>Libre de <strong>estrógenos, fragancias y parabenos.</strong></p>
             <span class="line left"></span>
           </div>
 
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
-            <img src="../../assets/beneficios-productos/icon10.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
-            <p>Hipoalergénico, ginecológica y <strong>dermatológicamente testeado.</strong></p>
+            <img src="../../assets/beneficios-productos/icon9.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
+            <p>Incluye 10 cánulas reutilizables: <strong>proceso suave y cómodo.</strong></p>
             <span class="line left"></span>
           </div>
         </div>

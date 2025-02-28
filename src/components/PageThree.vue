@@ -12,15 +12,15 @@
       <!-- Imagen en el centro -->
       <div class="image-container">
         <div class="container-item">
-          <div class="box top-left" style="flex-direction: row;">
-            <p>Fórmula especializada que deja tu ropa interior limpia y <strong>sin residuos que puedan alterar el pH de tu vagina. </strong></p>
+          <div class="box top-left" style="flex-direction: row; width: 283px;">
+            <p>Fórmula especializada que deja tu ropa interior limpia y <strong>sin residuos que puedan alterar el pH de tu vagina.</strong></p>
             <img src="../assets/beneficios-productos/icon1.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
           <div class="box top-left" style="flex-direction: row; background: #F3F3F3; box-shadow: none;">
-            <p style="visibility: hidden;"><strong>Libre de</strong> fragancias, colorantes y parabenos.</p>
-            <img src="../assets/logos-sellos/sello3.png" alt="Hidrosense" />
+            <p style="visibility: hidden;"><strong>Libre de</strong> fragancias, colorantes y parabenos.</p><!-- oculto -->
+            <img src="../assets/beneficios-productos/icon17.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
@@ -37,14 +37,20 @@
         <div>
           <div class="box top-right">
             <img src="../assets/beneficios-productos/icon4.png" alt="Sin Parabenos" />
-            <p style="font-size: 0.7rem;">Detergente liquido con tensoactivos biodegradables, que elimina malos olores.</p>
+            <p>Detergente liquido con tensoactivos biodegradables, que elimina malos olores.</p>
+            <span class="line left"></span>
+          </div>
+
+          <div class="box top-right">
+            <img src="../assets/beneficios-productos/icon18.png" alt="Sin Parabenos" />
+            <p style="font-size: 0.7rem;">Extracto de manzanilla, aloe vera y caléndula para cuidar tus manos.</p>
             <span class="line left"></span>
           </div>
 
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
-            <img src="../assets/beneficios-productos/icon5.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
-            <p>Con prebiótico que estimula <strong>el desarrollo y crecimiento de bacterias beneficiosas</strong> de la flora vaginal.</p>
+            <img src="../assets/beneficios-productos/icon5.png" alt="No irrita ojos" style="width: 292px;"/> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
+            <p>Ideal para todo tipo de prendas.</p>
             <span class="line left"></span>
           </div>
         </div>

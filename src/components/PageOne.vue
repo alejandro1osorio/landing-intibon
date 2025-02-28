@@ -42,7 +42,7 @@
           </div>
 
           <!-- Contenedor inferior derecho -->
-          <div class="box bottom-right">
+          <div class="box bottom-right" style="width: 293px;">
             <img src="../assets/beneficios-productos/icon5.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
             <p>Con prebiótico que estimula <strong>el desarrollo y crecimiento de bacterias beneficiosas</strong> de la flora vaginal.</p>
             <span class="line left"></span>
