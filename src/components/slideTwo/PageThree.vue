@@ -15,20 +15,20 @@
       <div class="image-container">
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
-            <p><strong>No altera el pH fisiológico</strong> de la zona vaginal y no mancha la ropa interior. No es agresivo al látex.</p>
+            <p>Se aplica en la vagina, vulva o pene antes o durante la actividad sexual, <strong>con el fin de reducir la fricción mecánica y, por ende, el trauma generado en los tejidos</strong></p>
             <img src="../../assets/beneficios-productos/icon6.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
           <div class="box top-left" style="flex-direction: row;">
-            <p><strong>Libre de</strong> estrógenos, fragancias y parabenos.</p>
+            <p>Su composición se basa en la integración de <strong>agua, silicona, aceite mineral o aceite de plantas.</strong></p>
             <img src="../../assets/beneficios-productos/icon7.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
-            <p style="font-size: 0.7rem;"><strong>Rehidratan el tejido mucoso seco,</strong> se absorben en la piel y se adhieren al revestimiento vaginal, mimetizando las secreciones vaginales.</p>
+            <p >Hipoalergénico, ginecológica y dermatológicamente testeado.</p>
             <img src="../../assets/beneficios-productos/icon8.png" alt="Algodón" />
             <span class="line right"></span>
           </div>
@@ -39,14 +39,14 @@
         <div>
           <div class="box top-right">
             <img src="../../assets/beneficios-productos/icon9.png" alt="Sin Parabenos" />
-            <p style="font-size: 0.7rem;">Favorece la hidratación de la zona íntima externa.</p>
+            <p>Ayuda a facilitar <br> las relaciones sexuales.</p>
             <span class="line left"></span>
           </div>
 
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
             <img src="../../assets/beneficios-productos/icon10.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
-            <p>Hipoalergénico, ginecológica y <strong>dermatológicamente testeado.</strong></p>
+            <p>Libre de fragancias, colorantes, <br>parabenos y sin estrógenos.</p>
             <span class="line left"></span>
           </div>
         </div>
@@ -191,7 +191,7 @@ export default {
 .box {
   display: flex;
   align-items: center;
-  width: 280px; /* Aumentado el ancho de los contenedores */
+  width: 380px; /* Aumentado el ancho de los contenedores */
   height: auto;
   background-color: #ffffff;
   border-radius: 10px;
