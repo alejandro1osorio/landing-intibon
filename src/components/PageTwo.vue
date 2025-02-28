@@ -13,13 +13,13 @@
       <div class="image-container">
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
-            <p><strong>Limpia suavemente</strong> tu zona íntima.</p>
+            <p>Diseñados para<strong>Limpiar suavemente tu zona íntima.</strong></p>
             <img src="../assets/beneficios-productos/icon1.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
           <div class="box top-left" style="flex-direction: row;">
-            <p><strong>Libre de</strong> fragancias, colorantes y parabenos.</p>
+            <p><strong>Libre de</strong> alcohol etílico, fragancias, colorantes y parabenos.</p>
             <img src="../assets/beneficios-productos/icon2.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
@@ -68,10 +68,10 @@
       </div>
 
       <p v-if="activeTab === 'benefits'" class="text-tab">
-        Agite antes de usar. Aplicar uniformemente sobre la piel. Esperar 15 minutos antes de exponerse al sol. <strong>Reaplicar cada 2 horas</strong> o después de un tiempo prolongado en el sol o de mucha transpiración. Usar diariamente
+        Intibon Pañitos Húmedos Íntimos 0% limpian suavemente tu zona íntima. <strong>Libre de alcohol, fragancias, colorantes y parabenos.</strong> Contienen ácido láctico que ayuda con el balance del pH de tu zona intima. <strong>Hipoalergénico, ginecológica y dermatológicamente testeado. Con prebiótico</strong> y extracto de caléndula. 
       </p>
-      <p v-if="activeTab === 'usage'">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, dignissimos.</p>
-      <p v-if="activeTab === 'composition'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, obcaecati?</p>
+      <p v-if="activeTab === 'usage'">Uso diario. Paso 1: Levanta el sticker sin desprenderlo completamente. Paso 2: Retira la toallita. Paso 3: Cierra bien el sticker para que las toallitas se mantengan húmedas.</p>
+      <p v-if="activeTab === 'composition'">Aqua (Water), Benzyl alcohol / Ethylhexylglycerin, Glycerin, Polysorbate 20, Benzyl Alcohol / Sodium Benzoate / Potassium Sorbate, Lactic Acid, Tetrasodium EDTA, Calendula Officinalis Flower Extract, Cocamidopropyl Betaine, Coco-Glucoside / Glyceryl Oleate, Inulin / Hydrolyzed Yogurt Protein, Citric Acid, 2-Methyl 5-Cyclohexylpentanol.</p>
     </div>
 
     <footer>

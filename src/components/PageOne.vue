@@ -68,10 +68,10 @@
       </div>
 
       <p v-if="activeTab === 'benefits'" class="text-tab">
-        Agite antes de usar. Aplicar uniformemente sobre la piel. Esperar 15 minutos antes de exponerse al sol. <strong>Reaplicar cada 2 horas</strong> o después de un tiempo prolongado en el sol o de mucha transpiración. Usar diariamente
+        <strong>INTIBON</strong> 0% el jabón íntimo experto en tu zona íntima <strong>hipoalergénico, libre de parabenos, fragancias y colorantes,</strong> con agua de coco natural y <strong>prebióticos.</strong> Limpia suavemente tu zona íntima, manteniendo el equilibrio de su pH natural y eliminando malos olores. Dermatológica y ginecológicamente testeado.
       </p>
-      <p v-if="activeTab === 'usage'">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, dignissimos.</p>
-      <p v-if="activeTab === 'composition'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, obcaecati?</p>
+      <p v-if="activeTab === 'usage'">Uso diario. Aplique cantidad suficiente sobre la zona genital externa, frote suavemente y enjuague con abundante agua</p>
+      <p v-if="activeTab === 'composition'">Water (Aqua), Cocamidopropyl Betaine / Water (Aqua) / Sodium Methyl Cocoyl Taurate, Lauryl Glucoside / Disodium 2-Sulfolaurate, Benzyl Alcohol / Sodium Benzoate / Potassium Sorbate, Coco-Glucoside / Glyceryl Oleate, Glycerin, Inulin / Hydrolyzed Yogurt Protein, PEG-120 Methyl Glucose Dioleate / Propylene Glycol / Water (Aqua), Allantoin, Citric Acid, Lactic Acid, Benzyl Alcohol / Ethylhexylglycerin, Sodium Gluconate, Calendula Officinalis Flower Extract, Caprylic Capric Triglyceride / Hydroxymethoxyphenyl Decanone, Cocos Nucifera (Coconut) Liquid Endosperm / Glycerin / Cocos Nucifera (Coconut) Fruit Juice.</p>
     </div>
 
     <footer>

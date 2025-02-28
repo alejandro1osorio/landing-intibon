@@ -77,8 +77,8 @@
       <p v-if="activeTab === 'benefits'" class="text-tab">
         INTIBON® 45+ Gel Hidratante íntimo que contiene ácido hialurónico, Vitamina E y un complejo hidratante, ayudan a brindar un efecto de hidratación y sensación de bienestar en tu zona íntima externa. <strong>No altera el pH fisiológico de la zona y no mancha la ropa interior.</strong>
       </p>
-      <p v-if="activeTab === 'usage'">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, dignissimos.</p>
-      <p v-if="activeTab === 'composition'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, obcaecati?</p>
+      <p v-if="activeTab === 'usage'">Uso diario. Aplique cantidad suficiente sobre la zona genital externa, frote suavemente y enjuague con abundante agua.</p>
+      <p v-if="activeTab === 'composition'">Clotrimazol 2%</p>
     </div>
 
     <footer>

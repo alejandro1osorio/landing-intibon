@@ -70,10 +70,27 @@
       </div>
 
       <p v-if="activeTab === 'benefits'" class="text-tab">
-        INTIBON® 45+ Gel Hidratante íntimo que contiene ácido hialurónico, Vitamina E y un complejo hidratante, ayudan a brindar un efecto de hidratación y sensación de bienestar en tu zona íntima externa. <strong>No altera el pH fisiológico de la zona y no mancha la ropa interior.</strong>
+        INTIBON® 45+ Gel Hidratante Vaginal  que contiene Ácido Hialurónico, Vitamina E y un complejo hidratante, que ayuda a lograr un efecto inmediato y duradero de hidratación combatiendo los síntomas de la sequedad vulvovaginal. No altera el pH fisiológico de la zona vaginal y no mancha la ropa interior. Es compatible con condones de látex.
       </p>
-      <p v-if="activeTab === 'usage'">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, dignissimos.</p>
-      <p v-if="activeTab === 'composition'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, obcaecati?</p>
+      <p v-if="activeTab === 'usage'"><strong>Lavar las manos antes y después del uso del producto.</strong><br>
+        <strong>Para uso en la zona vaginal:</strong> <br>   
+        <strong>1.</strong> Retira la tapa del tubo y el sello de seguridad. <br>
+        <strong>2.</strong> Toma una de las cánulas incluidas en el empaque. <br>
+        <strong>3.</strong> Enrosque la cánula en la boca del tubo. <br>
+        <strong>4.</strong> Retira la ropa interior. <br>
+        <strong>5.</strong> Hazte en una posición cómoda para ingresar el producto en la zona vaginal. <br>
+        <strong>6.</strong> Introduce la cánula en la vagina. <br>
+        <strong>7.</strong> Aprieta el tubo colapsible y aplica la cantidad deseada de gel hidratante en tu zona vaginal. <br>
+        <strong>8.</strong> Retira la cánula de la vagina. <br>
+        <strong>9.</strong> Desacopla la cánula del tubo vuelve a taparlo. <br>
+        <strong>10.</strong> Desecha la cánula. <br><br>
+        <strong>Para uso en la zona vulvar:</strong> <br>
+        <strong>1.</strong> Retire la tapa del tubo y el sello de seguridad. <br>
+        <strong>2.</strong> Aprieta el tubo colapsible y aplica la cantidad deseada de gel hidratante vaginal en tus dedos. <br>
+        <strong>3.</strong> Extiende el producto sobre la zona vulvar.<br>
+        <strong>4.</strong> Vuelve a tapar el tubo.
+      </p>
+      <p v-if="activeTab === 'composition'">Aqua (Water), Glycerin, Sodium Benzoate, Potassium Sorbate, Hydroxyethylcellulose, Aqua (Water) / Glycerin / Glyceryl Polyacrylate / Trehalose / Urea / Serine / Pentylene Glycol / Algin / Caprylyl Glycol / Sodium Hyaluronate / Pullulan / Disodium Phosphate / Potassium Phosphate, Sodium Hyaluronate, Tocopheryl Acetate, Lactic Acid.</p>
     </div>
 
     <footer>

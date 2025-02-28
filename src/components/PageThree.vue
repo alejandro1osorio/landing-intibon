@@ -13,20 +13,20 @@
       <div class="image-container">
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
-            <p><strong>Limpia suavemente</strong> tu zona íntima.</p>
+            <p>Fórmula especializada que deja tu ropa interior limpia y <strong>sin residuos que puedan alterar el pH de tu vagina. </strong></p>
             <img src="../assets/beneficios-productos/icon1.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
-          <div class="box top-left" style="flex-direction: row;">
-            <p><strong>Libre de</strong> fragancias, colorantes y parabenos.</p>
-            <img src="../assets/beneficios-productos/icon2.png" alt="Hidrosense" />
+          <div class="box top-left" style="flex-direction: row; background: #F3F3F3; box-shadow: none;">
+            <p style="visibility: hidden;"><strong>Libre de</strong> fragancias, colorantes y parabenos.</p>
+            <img src="../assets/logos-sellos/sello3.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
-            <p>Contiene ácido láctico que <strong>ayuda con el balance</strong> del pH vaginal.</p>
+            <p>Extracto de algodón para brindar suavidad a la tela.</p>
             <img src="../assets/beneficios-productos/icon3.png" alt="Algodón" />
             <span class="line right"></span>
           </div>
@@ -37,7 +37,7 @@
         <div>
           <div class="box top-right">
             <img src="../assets/beneficios-productos/icon4.png" alt="Sin Parabenos" />
-            <p style="font-size: 0.7rem;">Hipoalergénico, ginecológica y <strong>dermatológicamente testeado.</strong></p>
+            <p style="font-size: 0.7rem;">Detergente liquido con tensoactivos biodegradables, que elimina malos olores.</p>
             <span class="line left"></span>
           </div>
 
@@ -68,10 +68,10 @@
       </div>
 
       <p v-if="activeTab === 'benefits'" class="text-tab">
-        Agite antes de usar. Aplicar uniformemente sobre la piel. Esperar 15 minutos antes de exponerse al sol. <strong>Reaplicar cada 2 horas</strong> o después de un tiempo prolongado en el sol o de mucha transpiración. Usar diariamente
+        Intibon, tu marca experta en <strong>bienestar íntimo</strong> te trae Intibon jabón para ropa íntima, con una fórmula especializada, <strong>con pH balanceado</strong> que garantiza el cuidado de tus prendas y tus manos.  Detergente líquido con tensoactivos biodegradables, que limpia, elimina malos olores y brinda suavidad a tus prendas. Ideal para lavar, despercudir y desmanchar prendas blancas y de color . Contiene enzimas que ayudan a mejorar el proceso de limpieza. Es <strong>hipoalergénico</strong>. Con extracto de algodón, manzanilla, aloe vera y caléndula que son amigables con tu piel.
       </p>
-      <p v-if="activeTab === 'usage'">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, dignissimos.</p>
-      <p v-if="activeTab === 'composition'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, obcaecati?</p>
+      <p v-if="activeTab === 'usage'">Humedecer la prenda, agregar una pequeña cantidad de producto sobre la prenda, frotar con ayuda de las manos y enjuagar con abundante agua. Este jabón líquido está diseñado para el lavado de las prendas en la ducha. </p>
+      <p v-if="activeTab === 'composition'">Tensoactivos aniónicos, tensoactivo no iónico, tensoactivos catiónicos, agente viscosante, nivelador de pH, secuestrante, preservante, enzimas, extractos naturales y agua.</p>
     </div>
 
     <footer>

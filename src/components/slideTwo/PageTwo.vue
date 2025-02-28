@@ -70,10 +70,10 @@
       </div>
 
       <p v-if="activeTab === 'benefits'" class="text-tab">
-        INTIBON® 45+ Gel Hidratante íntimo que contiene ácido hialurónico, Vitamina E y un complejo hidratante, ayudan a brindar un efecto de hidratación y sensación de bienestar en tu zona íntima externa. <strong>No altera el pH fisiológico de la zona y no mancha la ropa interior.</strong>
+        INTIBON® 45+, <strong>recomendado para mujeres de 45 años en adelante,</strong> con tecnología <strong>Syndet</strong> y extracto de avena que ayuda a reducir molestias en la piel de la zona íntima. Su fórmula contiene un ingrediente especializado para el control de malos olores y extracto de caléndula que <strong>brinda hidratación.</strong>
       </p>
-      <p v-if="activeTab === 'usage'">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, dignissimos.</p>
-      <p v-if="activeTab === 'composition'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, obcaecati?</p>
+      <p v-if="activeTab === 'usage'">Uso diario. Aplique cantidad suficiente sobre la zona genital externa, frote suavemente y enjuague con abundante agua.</p>
+      <p v-if="activeTab === 'composition'">Aqua (Water), Sodium Lauroyl Methyl Isethionate / Cocamidopropyl Betaine / Sodium Methyl Oleoyl Taurate / Lauryl Glucoside / Coco Glucoside, Glycerin, Glycol Distearate / Laureth-4 / Cocamidopropyl Betaine, Hydroxyethylcellulose, Cocamidopropyl Betaine, Avena Sativa (Oat) Meal Extract, Calendula Officinalis Flower Extract, Parfum (Fragrance), Lactic Acid, Allantoin, 2-Methyl 5-Cyclohexylpentanol, Sodium Methylparaben, Diazolidinyl Urea / Iodopropynyl Butylcarbamate, Disodium EDTA, Sodium Propylparaben.</p>
     </div>
 
     <footer>
