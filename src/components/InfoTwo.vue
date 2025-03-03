@@ -2,7 +2,7 @@
   <div class="parent" id="45">
     <div class="div1">
       <h1 class="title">Intibon <strong style="border-bottom: 5px solid #008EB4;">45+</strong></h1>
-      <p class="description">Intibon lanza la línea especializada Intibon 45+ desarrollada con ginecólogo experto para solucionar las principales <br> necesidades de las mujeres necesidades de las mujeres <strong>en etapa de menopausia.</strong> La menopausia indica el cese de la vida reproductiva de <strong>la mujer. Durante este proceso natural, la mujer puede experimentar cambios en el bienestar intimo.</strong></p>
+      <p class="description">La sequedad vaginal es un síntoma que surge del síndrome genitourinario de la menopausia (SGM), y aunque principalmente se asocia a mujeres en fase posmenopáusica, puede aparecer a cualquier edad debido a factores de estrés, diabetes, lactancia y afectaciones inflamatorias. <br><br> Intibon lanza la línea especializada Intibon 45+ desarrollada con ginecólogo experto para solucionar las principales necesidades de las mujeres necesidades de las mujeres <strong>en etapa de menopausia.</strong> La menopausia indica el cese de la vida reproductiva de <strong>la mujer. Durante este proceso natural, la mujer puede experimentar cambios en el bienestar intimo.</strong></p>
     </div>
     <div class="div2">
       <img src="../assets/otros/tema2.png" alt="Placeholder Image" class="image" />

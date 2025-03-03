@@ -33,4 +33,17 @@ export default {
     padding: 0px 0px;
   }
 }
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .footer-text {
+    padding: 10px;
+  }
+
+  p {
+    font-size: 0.75em;
+    line-height: 1.4;
+    text-align: left; /* En móviles, mejor alineado a la izquierda */
+  }
+}
+
 </style>
