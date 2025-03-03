@@ -4,6 +4,7 @@
     <TextComponent />
     <!-- tema 1 -->
     <InfoOne />
+    <FooterText />
     <Slider />
 
     <!-- tema 2 -->
@@ -26,6 +27,7 @@ import TextComponent from "./components/TextComponent.vue";
 
 /* tema 1 */
 import InfoOne from "./components/InfoOne.vue";
+import FooterText from "./components/FooterText.vue";
 import Slider from "./components/Slider.vue";
 
 /* tema 2 */
@@ -47,6 +49,7 @@ export default {
     TextComponent,
     /* tema 1 */
     InfoOne,
+    FooterText,
     Slider,
 
     /* tema 2 */

@@ -2,7 +2,7 @@
   <div class="parent" id="higiene">
     <div class="div1">
       <h1 class="title">Higiene <strong style="border-bottom: 5px solid #008EB4;">Íntima</strong></h1>
-      <p class="description">Los temas de cuidado íntimo deben ser parte de la charla con sus pacientes, <strong>para crear <br> consciencia sobre la higiene íntimay ayudar a mejorar su salud y bienestar en general.<sup>4</sup></strong></p>
+      <p class="description">El cuidado íntimo incluye utilizar productos de higiene intima adecuados, <br> así como también evitar productos y conductas innecesarias y/o perjudiciales.<strong><sup>1</sup></strong></p>
     </div>
     <div class="div2">
       <img src="../assets/otros/tema1.png" alt="Placeholder Image" class="image" />
