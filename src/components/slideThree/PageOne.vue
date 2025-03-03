@@ -2,7 +2,7 @@
   <div class="page-grid">
     <div class="top-line"></div>
     <img src="../../assets/logos-sellos/sello3.png" alt="Decorative Image" class="decorative-image" />
-    <h1 class="page-title"><strong>Crema</strong> <strong style="border-bottom: 5px solid #008EB4; font-weight: 300;">Vaginal</strong></h1>
+    <h1 class="page-title"><strong>Óvulo</strong> <strong style="border-bottom: 5px solid #008EB4; font-weight: 300;">Vaginal</strong></h1>
 
     <p class="additional-text">El clotrimazol es el tratamiento de primera línea para <br> tratar infecciones vaginales causadas por hongos.</p>
 
@@ -77,8 +77,9 @@
       <p v-if="activeTab === 'benefits'" class="text-tab">
         INTIBON® 45+ Gel Hidratante íntimo que contiene ácido hialurónico, Vitamina E y un complejo hidratante, ayudan a brindar un efecto de hidratación y sensación de bienestar en tu zona íntima externa. <strong>No altera el pH fisiológico de la zona y no mancha la ropa interior.</strong>
       </p>
-      <p v-if="activeTab === 'usage'">Uso diario. Aplique cantidad suficiente sobre la zona genital externa, frote suavemente y enjuague con abundante agua.</p>
-      <p v-if="activeTab === 'composition'">Clotrimazol 2%</p>
+      <p v-if="activeTab === 'usage'">Aplicar un óvulo vaginal en la noche a la hora de acostarse, en administración única, introducido en la vagina profundamente, preferiblemente acostada. Si los síntomas persisten más de 3 días, se puede administrar un segundo óvulo vaginal. Si los síntomas persisten más allá de 7 días, se debe buscar consejo médico. Previsto para ser utilizado por mujeres adultas de 18 a 60 años. <br><br><strong>Recomendaciones:</strong> Use Intibon Medical® óvulo vaginal durante 1 día. El óvulo vaginal debe aplicarse en la noche al acostarse a dormir. Intibon Medical® óvulo vaginal funcionará mejor sí usted no se levanta después de aplicarlo excepto para lavarse las manos. Usted puede usar una toalla higiénica mientras usa el óvulo vaginal para proteger su ropa de las manchas. No se deben usar tampones, duchas intravaginales, espermicidas u otros productos vaginales mientras se utilice este medicamento. No se recomienda iniciar el tratamiento durante la menstruación. El tratamiento debe haber finalizado antes del inicio de la menstruación. Mantenga este medicamento almacenado fuera del alcance de los niños.
+      </p>
+      <p v-if="activeTab === 'composition'">Clotrimazol 500mg</p>
     </div>
 
     <footer>
