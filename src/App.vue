@@ -9,6 +9,7 @@
 
     <!-- tema 2 -->
     <InfoTwo />
+    <FooterTextTwo />
     <SliderTwo />
 
     <!-- tema 3 -->
@@ -32,6 +33,7 @@ import Slider from "./components/Slider.vue";
 
 /* tema 2 */
 import InfoTwo from "./components/InfoTwo.vue";
+import FooterTextTwo from "./components/FooterTextTwo.vue";
 import SliderTwo from "./components/SliderTwo.vue";
 
 /* tema 3 */
@@ -54,6 +56,7 @@ export default {
 
     /* tema 2 */
     InfoTwo,
+    FooterTextTwo,
     SliderTwo,
     
     /* tema 3 */
