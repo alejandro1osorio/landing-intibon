@@ -38,7 +38,7 @@ export default {
         },
         {
           title: "¿Los jabones íntimos Intibon son Syndet?",
-          content: "aaaaaaaaaa\\n \\naaaaaaaaaas"
+          content: "Sí, todos nuestros jabones íntimos son Syndet, Los jabones íntimos de Intibon®, han sido diseñados meticulosamente utilizando exclusivamente surfactantes Syndet para proporcionar una limpieza suave en la zona íntima. Entre sus ingredientes limpiadores se incluyen Sodium Lauroyl Methyl Isethionate, Sodium Methyl Oleoyl Taurate, Lauryl Glucoside, Coco-Glucoside, Sodium Methyl Cocoyl Taurate y Disodium 2- Sulfolaurate, conocidos por retirar residuos de secreciones sin causar daño a la piel. Además, estas formulaciones cuentan con un pH ajustado a la zona íntima femenina (mujer y niñas), e ingredientes como: 1. Alantoína: Con propiedades protectoras que previenen daños en la piel y alivian molestias. 2. Ácido láctico: Regula el pH y proporciona hidratación. 3. Ingredientes naturales como caléndula, avena, sábila y extracto de menta, reconocidos por sus beneficios cutáneos."
         },
         {
           title: "¿Intibon tiene productos con prebióticos para la zona íntima?",

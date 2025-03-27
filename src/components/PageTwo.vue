@@ -1,7 +1,7 @@
 <template>
   <div class="page-grid">
     <div class="top-line"></div>
-    <h1 class="page-title">Jabón <strong>Íntimo</strong> <strong style="border-bottom: 5px solid #008EB4; font-weight: 300;">Syndet</strong></h1>
+    <h1 class="page-title">Pañitos <strong style="border-bottom: 5px solid #008EB4; font-weight: 300;">Húmedos</strong></h1>
 
     <div class="title-image-container">
       <img src="../assets/logos-sellos/grupo-sellos.png" alt="Imagen descriptiva" class="title-image"/>
