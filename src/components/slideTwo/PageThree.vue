@@ -29,7 +29,7 @@
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
             <p >Hipoalergénico, ginecológica y dermatológicamente testeado.</p>
-            <img src="../../assets/beneficios-productos/icon8.png" alt="Algodón" />
+            <img src="../../assets/beneficios-productos/icon10.png" alt="Algodón" />
             <span class="line right"></span>
           </div>
         </div>
@@ -38,14 +38,14 @@
         
         <div>
           <div class="box top-right">
-            <img src="../../assets/beneficios-productos/icon9.png" alt="Sin Parabenos" />
+            <img src="../../assets/beneficios-productos/icon8.png" alt="Sin Parabenos" />
             <p>Ayuda a facilitar <br> las relaciones sexuales.</p>
             <span class="line left"></span>
           </div>
 
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
-            <img src="../../assets/beneficios-productos/icon10.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
+            <img src="../../assets/beneficios-productos/icon7.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
             <p>Libre de fragancias, colorantes, <br>parabenos y sin estrógenos.</p>
             <span class="line left"></span>
           </div>
@@ -73,7 +73,7 @@
         INTIBON® 45+ Gel Lubricante Íntimo indicado para facilitar las relaciones sexuales y evitar la incomodidad generada por la resequedad de la zona íntima. No altera el pH de la zona vaginal y no mancha la ropa interior. No es agresivo al látex. Libre de fragancias, colorantes, parabenos y sin estrógenos. 
       </p>
       <p v-if="activeTab === 'usage'">Aplicar la cantidad deseada de lubricante sobre la zona íntima o directamente sobre el condón. Aplique nuevamente si es necesario. Vuelva a tapar después de usarse. Gel lubricante para uso en genitales externos.</p>
-      <p v-if="activeTab === 'composition'">Aqua (Water), Glycerin, Sodium Benzoate, Potassium Sorbate, Hydroxyethylcellulose, Lactic Acid.</p>
+      <p v-if="activeTab === 'composition'">(Water), Glycerin, Sodium Benzoate, Potassium Sorbate, Hydroxyethylcellulose, Lactic Acid.</p>
     </div>
 
     <footer>

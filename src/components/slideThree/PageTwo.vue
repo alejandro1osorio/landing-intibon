@@ -30,8 +30,8 @@
     
     <div class="box-container">
       <svg class="curved-line" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: translate(193%, -93%) scale(1.60);">
-        <path d="M20 80 V20 H90" stroke="#EEAF00" stroke-width="2" fill="transparent"/>
-        <circle cx="90" cy="20" r="5" fill="#EEAF00" stroke="#b68e22" stroke-width="2"/>
+        <path d="M20 80 V20 H90" stroke="#41bba9" stroke-width="2" fill="transparent"/>
+        <circle cx="90" cy="20" r="5" fill="#41bba9" stroke="#9dddd3" stroke-width="2"/>
       </svg>
       <div class="box">
         <img src="../../assets/beneficios-productos/icon13.png" alt="box3" class="box-image" />
@@ -55,8 +55,8 @@
         <p class="box-text"><strong>Alivia: <br> Mal olor</strong></p>
       </div>
       <svg class="" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: translate(-293%, -96%) scale(1.6);">
-        <path d="M80 80 V20 H70" stroke="#EEAF00" stroke-width="2" fill="transparent"/>
-        <circle cx="70" cy="20" r="5" fill="#EEAF00" stroke="#b68e22" stroke-width="2"/>
+        <path d="M80 80 V20 H70" stroke="#41bba9" stroke-width="2" fill="transparent"/>
+        <circle cx="70" cy="20" r="5" fill="#41bba9" stroke="#9dddd3" stroke-width="2"/>
       </svg>
     </div>
 
@@ -75,10 +75,10 @@
       </div>
 
       <p v-if="activeTab === 'benefits'" class="text-tab">
-        INTIBON® 45+ Gel Hidratante íntimo que contiene ácido hialurónico, Vitamina E y un complejo hidratante, ayudan a brindar un efecto de hidratación y sensación de bienestar en tu zona íntima externa. <strong>No altera el pH fisiológico de la zona y no mancha la ropa interior.</strong>
+        Elimina la infección vaginal causada por hongos.
       </p>
       <p v-if="activeTab === 'usage'">
-        Uso diario. Aplique cantidad suficiente sobre la zona genital externa, frote suavemente y enjuague con abundante agua.
+        Aplicar una carga del dispositivo intravaginal (5 g) una vez al día preferiblemente por la noche antes de acostarse, durante 3 días consecutivos. La crema debe ser introducida profundamente en la vagina.
       </p>
       <p v-if="activeTab === 'composition'">Clotrimazol 2%</p>
     </div>
@@ -220,7 +220,7 @@ export default {
   position: absolute;
   width: 94px;
   height: 2px;
-  background-color: #EEAF00;
+  background-color: #41BBA9;
   /* top: 50%;
   transform: translateY(-50%); */
 }
@@ -230,8 +230,8 @@ export default {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: #EEAF00;
-  border: 2px solid #b68e22;
+  background-color: #41BBA9;
+  border: 2px solid #9dddd3;
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);

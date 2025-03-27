@@ -38,14 +38,14 @@
         
         <div>
           <div class="box top-right">
-            <img src="../../assets/beneficios-productos/icon9.png" alt="Sin Parabenos" />
+            <img src="../../assets/beneficios-productos/icon10.png" alt="Sin Parabenos" />
             <p>Hipoalergénico, ginecológica y dermatológicamente testeado.</p>
             <span class="line left"></span>
           </div>
 
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
-            <img src="../../assets/beneficios-productos/icon10.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
+            <img src="../../assets/beneficios-productos/icon9.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
             <p>Extracto de caléndula que brinda <strong>hidratación.</strong></p>
             <span class="line left"></span>
           </div>

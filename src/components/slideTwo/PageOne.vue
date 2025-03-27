@@ -15,14 +15,14 @@
       <div class="image-container">
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row; width: 302px;">
-            <p>Ayuda a lograr un efecto inmediato y duradero <strong>combatiendo los síntomas de la sequedad vulvovaginal.</strong></p>
-            <img src="../../assets/beneficios-productos/icon6.png" alt="Hidrosense" />
+            <p>Ayuda a brindar un efecto de hidratación y sensación de bienestar en tu zona íntima externa.</p>
+            <img src="../../assets/beneficios-productos/icon9.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
           <div class="box top-left" style="flex-direction: row;">
             <p><strong>No altera el pH fisiológico </strong>de la zona vaginal y no mancha la ropa interior. No es agresivo al látex.</p>
-            <img src="../../assets/beneficios-productos/icon7.png" alt="Hidrosense" />
+            <img src="../../assets/beneficios-productos/icon6.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
@@ -44,17 +44,17 @@
           </div>
 
           <div class="box top-right">
-            <img src="../../assets/beneficios-productos/icon10.png" alt="Sin Parabenos" />
+            <img src="../../assets/beneficios-productos/icon7.png" alt="Sin Parabenos" />
             <p>Libre de <strong>estrógenos, fragancias y parabenos.</strong></p>
             <span class="line left"></span>
           </div>
 
           <!-- Contenedor inferior derecho -->
-          <div class="box bottom-right">
-            <img src="../../assets/beneficios-productos/icon9.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
+          <!-- <div class="box bottom-right">
+            <img src="../../assets/beneficios-productos/icon9.png" alt="No irrita ojos" />
             <p>Incluye 10 cánulas reutilizables: <strong>proceso suave y cómodo.</strong></p>
             <span class="line left"></span>
-          </div>
+          </div> -->
         </div>
       </div>
       <!-- Contenedor superior derecho -->
@@ -76,27 +76,14 @@
       </div>
 
       <p v-if="activeTab === 'benefits'" class="text-tab">
-        INTIBON® 45+ Gel Hidratante Vaginal  que contiene Ácido Hialurónico, Vitamina E y un complejo hidratante, que ayuda a lograr un efecto inmediato y duradero de hidratación combatiendo los síntomas de la sequedad vulvovaginal. No altera el pH fisiológico de la zona vaginal y no mancha la ropa interior. Es compatible con condones de látex.
+        INTIBON® 45+ Gel Hidratante íntimo contiene ácido hialurónico, Vitamina E y un complejo hidratante que ayudan a brindar un efecto de hidratación y sensación de bienestar en tu zona íntima externa. No altera el pH fisiológico de la zona y no mancha la ropa interior.
       </p>
-      <p v-if="activeTab === 'usage'"><strong>Lavar las manos antes y después del uso del producto.</strong><br>
-        <strong>Para uso en la zona vaginal:</strong> <br>   
-        <strong>1.</strong> Retira la tapa del tubo y el sello de seguridad. <br>
-        <strong>2.</strong> Toma una de las cánulas incluidas en el empaque. <br>
-        <strong>3.</strong> Enrosque la cánula en la boca del tubo. <br>
-        <strong>4.</strong> Retira la ropa interior. <br>
-        <strong>5.</strong> Hazte en una posición cómoda para ingresar el producto en la zona vaginal. <br>
-        <strong>6.</strong> Introduce la cánula en la vagina. <br>
-        <strong>7.</strong> Aprieta el tubo colapsible y aplica la cantidad deseada de gel hidratante en tu zona vaginal. <br>
-        <strong>8.</strong> Retira la cánula de la vagina. <br>
-        <strong>9.</strong> Desacopla la cánula del tubo vuelve a taparlo. <br>
-        <strong>10.</strong> Desecha la cánula. <br><br>
-        <strong>Para uso en la zona vulvar:</strong> <br>
-        <strong>1.</strong> Retire la tapa del tubo y el sello de seguridad. <br>
-        <strong>2.</strong> Aprieta el tubo colapsible y aplica la cantidad deseada de gel hidratante vaginal en tus dedos. <br>
-        <strong>3.</strong> Extiende el producto sobre la zona vulvar.<br>
-        <strong>4.</strong> Vuelve a tapar el tubo.
+      <p v-if="activeTab === 'usage'">
+        SOLO PARA USO EXTERNO. Retire la tapa del tubo y el sello de seguridad. Aprieta el tubo colapsible y aplica la cantidad deseada de gel hidratante íntimo en tus dedos. Extiende el producto sobre la zona vulvar. Vuelve a tapar el tubo.
       </p>
-      <p v-if="activeTab === 'composition'">Aqua (Water), Glycerin, Sodium Benzoate, Potassium Sorbate, Hydroxyethylcellulose, Aqua (Water) / Glycerin / Glyceryl Polyacrylate / Trehalose / Urea / Serine / Pentylene Glycol / Algin / Caprylyl Glycol / Sodium Hyaluronate / Pullulan / Disodium Phosphate / Potassium Phosphate, Sodium Hyaluronate, Tocopheryl Acetate, Lactic Acid.</p>
+      <p v-if="activeTab === 'composition'">
+        Water, Glycerin,Hydroxyethylcellulose, Water/Glycerin, Glyceryl Polyacrylate/Trehalose/Urea/Serine/Pentylene Glycol/Algin/Caprylyl Glycol/Sodium Hyaluronate/Pollulan/Disodium Phospate/Potassium Phospate, Sodium Hyaluronate, Sodium Benzoate, Potassium Sorbate, Tocopheryl Acetate, Lactic Acid.
+      </p>
     </div>
 
     <footer>

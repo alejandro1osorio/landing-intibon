@@ -30,8 +30,8 @@
     
     <div class="box-container">
       <svg class="curved-line" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: translate(193%, -93%) scale(1.60);">
-        <path d="M20 80 V20 H90" stroke="#EEAF00" stroke-width="2" fill="transparent"/>
-        <circle cx="90" cy="20" r="5" fill="#EEAF00" stroke="#b68e22" stroke-width="2"/>
+        <path d="M20 80 V20 H90" stroke="#41bba9" stroke-width="2" fill="transparent"/>
+        <circle cx="90" cy="20" r="5" fill="#41bba9" stroke="#9dddd3" stroke-width="2"/>
       </svg>
       <div class="box">
         <img src="../../assets/beneficios-productos/icon13.png" alt="box3" class="box-image" />
@@ -55,15 +55,15 @@
         <p class="box-text"><strong>Alivia: <br> Mal olor</strong></p>
       </div>
       <svg class="" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: translate(-293%, -96%) scale(1.6);">
-        <path d="M80 80 V20 H70" stroke="#EEAF00" stroke-width="2" fill="transparent"/>
-        <circle cx="70" cy="20" r="5" fill="#EEAF00" stroke="#b68e22" stroke-width="2"/>
+        <path d="M80 80 V20 H70" stroke="#41bba9" stroke-width="2" fill="transparent"/>
+        <circle cx="70" cy="20" r="5" fill="#41bba9" stroke="#9dddd3" stroke-width="2"/>
       </svg>
     </div>
 
     <div class="button-group">
-      <button @click="setActiveTab('benefits')">Beneficios</button>
-      <button @click="setActiveTab('usage')">Modo de uso</button>
-      <button @click="setActiveTab('composition')">Composición</button>
+      <button @click="setActiveTab('usage')">Modo de uso</button> <!-- Beneficios -->
+      <button @click="setActiveTab('benefits')">Recomendaciones</button> <!-- Modo de uso -->
+      <button @click="setActiveTab('composition')">Composición</button> <!-- Composición -->
     </div>
     <div v-if="activeTab" class="content-tab">
       <div class="tab-header">
@@ -74,10 +74,11 @@
         </button>
       </div>
 
-      <p v-if="activeTab === 'benefits'" class="text-tab">
-        INTIBON® 45+ Gel Hidratante íntimo que contiene ácido hialurónico, Vitamina E y un complejo hidratante, ayudan a brindar un efecto de hidratación y sensación de bienestar en tu zona íntima externa. <strong>No altera el pH fisiológico de la zona y no mancha la ropa interior.</strong>
+      <p v-if="activeTab === 'usage'" class="text-tab">
+        Aplicar un óvulo vaginal en la noche a la hora de acostarse, en administración única, introducido en la vagina profundamente, preferiblemente acostada. Si los síntomas persisten más de 3 días, se puede administrar un segundo óvulo vaginal. Si los síntomas persisten más allá de 7 días, se debe buscar consejo médico. Previsto para ser utilizado por mujeres adultas de 18 a 60 años.
       </p>
-      <p v-if="activeTab === 'usage'">Aplicar un óvulo vaginal en la noche a la hora de acostarse, en administración única, introducido en la vagina profundamente, preferiblemente acostada. Si los síntomas persisten más de 3 días, se puede administrar un segundo óvulo vaginal. Si los síntomas persisten más allá de 7 días, se debe buscar consejo médico. Previsto para ser utilizado por mujeres adultas de 18 a 60 años. <br><br><strong>Recomendaciones:</strong> Use Intibon Medical® óvulo vaginal durante 1 día. El óvulo vaginal debe aplicarse en la noche al acostarse a dormir. Intibon Medical® óvulo vaginal funcionará mejor sí usted no se levanta después de aplicarlo excepto para lavarse las manos. Usted puede usar una toalla higiénica mientras usa el óvulo vaginal para proteger su ropa de las manchas. No se deben usar tampones, duchas intravaginales, espermicidas u otros productos vaginales mientras se utilice este medicamento. No se recomienda iniciar el tratamiento durante la menstruación. El tratamiento debe haber finalizado antes del inicio de la menstruación. Mantenga este medicamento almacenado fuera del alcance de los niños.
+      <p v-if="activeTab === 'benefits'">
+        Use Intibon Medical® óvulo vaginal durante 1 día. El óvulo vaginal debe aplicarse en la noche al acostarse a dormir. Intibon Medical® óvulo vaginal funcionará mejor sí usted no se levanta después de aplicarlo excepto para lavarse las manos. Usted puede usar una toalla higiénica mientras usa el óvulo vaginal para proteger su ropa de las manchas. No se deben usar tampones, duchas intravaginales, espermicidas u otros productos vaginales mientras se utilice este medicamento. No se recomienda iniciar el tratamiento durante la menstruación. El tratamiento debe haber finalizado antes del inicio de la menstruación. Mantenga este medicamento almacenado fuera del alcance de los niños.
       </p>
       <p v-if="activeTab === 'composition'">Clotrimazol 500mg</p>
     </div>
@@ -219,7 +220,7 @@ export default {
   position: absolute;
   width: 94px;
   height: 2px;
-  background-color: #EEAF00;
+  background-color: #41BBA9;
   /* top: 50%;
   transform: translateY(-50%); */
 }
@@ -229,8 +230,8 @@ export default {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: #EEAF00;
-  border: 2px solid #b68e22;
+  background-color: #41BBA9;
+  border: 2px solid #9dddd3;
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
