@@ -100,7 +100,7 @@
     </div>
 
     <footer>
-      <p class="text-footer">Desarrollado con <strong>Ginecólogos Expertos.</strong></p>
+      <p class="text-footer">Desarrollado con <strong>Ginecólogo Experto.</strong></p>
     </footer>
   </div>
 </template>
