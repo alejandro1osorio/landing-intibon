@@ -32,7 +32,7 @@
           </div>
         </div>
         
-        <img src="../assets/productos/producto1.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 0 26px;"/>
+        <img src="../assets/productos/producto1.png" alt="Shampoo y Baño Líquido Recién Nacido" style="width: 70%; padding: 0 56px;"/>
         
         <div>
           <div class="box top-right">

@@ -34,7 +34,7 @@
           </div>
         </div>
         
-        <img src="../../assets/productos/producto2.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 0 70px;"/>
+        <img src="../../assets/productos/producto2.png" alt="Shampoo y Baño Líquido Recién Nacido" style="max-width: 88%; padding: 0 80px;"/>
         
         <div>
           <div class="box top-right">

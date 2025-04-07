@@ -4,12 +4,10 @@
     <TextComponent />
     <!-- tema 1 -->
     <InfoOne />
-    <FooterText />
     <Slider />
 
     <!-- tema 2 -->
     <InfoTwo />
-    <FooterTextTwo />
     <SliderTwo />
 
     <!-- tema 3 -->
@@ -28,12 +26,10 @@ import TextComponent from "./components/TextComponent.vue";
 
 /* tema 1 */
 import InfoOne from "./components/InfoOne.vue";
-import FooterText from "./components/FooterText.vue";
 import Slider from "./components/Slider.vue";
 
 /* tema 2 */
 import InfoTwo from "./components/InfoTwo.vue";
-import FooterTextTwo from "./components/FooterTextTwo.vue";
 import SliderTwo from "./components/SliderTwo.vue";
 
 /* tema 3 */
@@ -51,12 +47,10 @@ export default {
     TextComponent,
     /* tema 1 */
     InfoOne,
-    FooterText,
     Slider,
 
     /* tema 2 */
     InfoTwo,
-    FooterTextTwo,
     SliderTwo,
     
     /* tema 3 */

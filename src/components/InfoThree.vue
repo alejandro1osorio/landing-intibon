@@ -1,7 +1,7 @@
 <template>
   <div class="parent" id="tratamiento">
     <div class="div1">
-      <h1 class="title"><strong>Tratam<strong style="border-bottom: 5px solid #008EB4;">iento</strong></strong></h1>
+      <h1 class="title"><strong>Plataforma de Tratam<strong style="border-bottom: 5px solid #008EB4;">iento</strong></strong></h1>
       <p class="description">Alrededor del 80 a 90% de casos de candidiasis vulvovaginal sintomática son de <strong style="color: #008FB2;">naturaleza no <br> complicada</strong> y de estos entre el 75 al 90% se producen por el crecimiento excesivo de C.albicans.</p>
     </div>
     <div class="div2">

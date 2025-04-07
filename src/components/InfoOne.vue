@@ -2,7 +2,8 @@
   <div class="parent" id="higiene">
     <div class="div1">
       <h1 class="title">Higiene <strong style="border-bottom: 5px solid #008EB4;">Íntima</strong></h1>
-      <p class="description">El cuidado íntimo incluye utilizar productos de higiene intima adecuados, <br> así como también evitar productos y conductas innecesarias y/o perjudiciales.<strong><sup>1</sup></strong></p>
+      <p class="description">El cuidado íntimo incluye utilizar productos de higiene intima adecuados, así como también <br> evitar productos y conductas innecesarias y/o perjudiciales.<sup>1</sup></p>
+      <p class="note">1. Murina PF, Graziottin A, Bagot O, Panay N, Thamkhantho M, Shaw SW. Real-World Practices and Attitudes Towards Intimate Self- Care: Results From An International Women's Survey. J Gynecol Obstet Hum <br> Reprod [Internet]. Diciembre de 2021 [citado el 4 de diciembre de 2024];50(10). Disponible en: https://sciencedirect.unalproxy.elogim.com/science/article/pii/S2468784721001306#sec0001</p>
     </div>
     <div class="div2">
       <img src="../assets/otros/tema1.png" alt="Placeholder Image" class="image" />
@@ -55,11 +56,21 @@ export default {
 }
 
 .div1 .description {
-  font-size: 1em;
+  font-size: 1.3em;
+  line-height: 18px;
   color: #214F79;
   margin-top: 10px;
-  text-align: center;
+  text-align: left;
   max-width: 80%;
+}
+
+.div1 .note {
+  font-size: 10px;
+  line-height: 13px;
+  color: #666;
+  margin-top: 6px;
+  text-align: left;
+  max-width: 95%;
 }
 
 .div2 {
@@ -150,6 +161,16 @@ export default {
 
   .div1 {
     grid-area: 1 / 1 / 2 / 7;
+  }
+
+  .div1 .description {
+    font-size: 1.2em;
+  }
+
+  .div1 .note {
+    font-size: 7px;
+    line-height: 9px;
+    padding: 0 30px;
   }
 
   .div1 .title {
