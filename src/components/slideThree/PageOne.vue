@@ -18,6 +18,12 @@
         <span class="line" style="transform: rotate(-90deg) translate(-93px, 0px);"></span>
         <p class="box-text"><strong>Incluye 1 aplicador</strong></p>
       </div>
+
+      <div class="box" style="width: 280px; height: auto; border-radius: 200px 240px 90px 200px;">
+        <img src="../../assets/beneficios-productos/icon19.png" alt="box2" class="box-image" />
+        <span class="line" style="transform: rotate(-90deg) translate(-93px, 0px);"></span>
+        <p class="box-text"><strong>Tratamiento de 1 día</strong></p>
+      </div>
     </div>
 
     <div class="image-structure">
