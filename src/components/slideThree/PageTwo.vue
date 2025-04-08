@@ -14,7 +14,7 @@
         <p class="box-text"><strong>Único avalado</strong> por la Federación Colombiana de Obstetricia y Ginecología.</p>
       </div>
       <div class="box" style="width: 280px; height: auto; border-radius: 200px 240px 90px 200px;">
-        <img src="../../assets/beneficios-productos/icon12.png" alt="box2" class="box-image" />
+        <img src="../../assets/beneficios-productos/icon20.png" alt="box2" class="box-image" />
         <span class="line" style="transform: rotate(-90deg) translate(-93px, 0px);"></span>
         <p class="box-text"><strong>Incluye 3 aplicadores</strong></p>
       </div>

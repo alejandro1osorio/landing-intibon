@@ -336,6 +336,13 @@ footer {
   color: #fff;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .producto-central {
+    width: 64% !important;
+  }
+}
+
+
 @media (max-width: 768px) {
   .title-image {
     max-width: 80%;
