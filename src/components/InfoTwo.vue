@@ -12,7 +12,7 @@
       <img src="../assets/logos-sellos/grupo-sellos.png" alt="Placeholder Image" class="image-centered" />
     </div>
     <div class="div3">
-      <img src="../assets/productos/grupo-produtos2.png" alt="Placeholder Image" class="image-centered" />
+      <img src="../assets/productos/grupo-produtos22.png" alt="Placeholder Image" class="image-centered" />
     </div>
   </div>
 </template>
