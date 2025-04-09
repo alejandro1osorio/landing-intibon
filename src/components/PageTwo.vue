@@ -74,9 +74,9 @@
       </div>
 
       <p v-if="activeTab === 'benefits'" class="text-tab">
-        Intibon Pañitos Húmedos Íntimos 0% limpian suavemente tu zona íntima. <strong>Libre de alcohol, fragancias, colorantes y parabenos.</strong> Contienen ácido láctico que ayuda con el balance del pH de tu zona intima. <strong>Hipoalergénico, ginecológica y dermatológicamente testeado. Con prebiótico</strong> y extracto de caléndula. 
+        Intibon Pañitos Húmedos Íntimos 0% limpian suavemente tu zona íntima. <strong>Libre de alcohol etílico, fragancias, colorantes y parabenos.</strong> Contienen ácido láctico que ayuda con el balance del pH de tu zona íntima. <strong>Hipoalergénico, ginecológica y dermatológicamente comprobado. Con prebiótico y extracto de caléndula.</strong> 
       </p>
-      <p v-if="activeTab === 'usage'">Uso diario. Paso 1: Levanta el sticker sin desprenderlo completamente. Paso 2: Retira la toallita. Paso 3: Cierra bien el sticker para que las toallitas se mantengan húmedas.</p>
+      <p v-if="activeTab === 'usage'">Uso diario. <br> Paso 1: Levanta el sticker sin desprenderlo completamente. <br> Paso 2: Retira la toallita. <br> Paso 3: Cierra bien el sticker para que las toallitas se mantengan húmedas.</p>
       <p v-if="activeTab === 'composition'">Aqua (Water), Benzyl alcohol / Ethylhexylglycerin, Glycerin, Polysorbate 20, Benzyl Alcohol / Sodium Benzoate / Potassium Sorbate, Lactic Acid, Tetrasodium EDTA, Calendula Officinalis Flower Extract, Cocamidopropyl Betaine, Coco-Glucoside / Glyceryl Oleate, Inulin / Hydrolyzed Yogurt Protein, Citric Acid, 2-Methyl 5-Cyclohexylpentanol.</p>
     </div>
 
