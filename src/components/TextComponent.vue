@@ -5,7 +5,7 @@
       <span class="bold-text">estado de tranquilidad, equilibrio y plenitud</span>
     </h2>
     <p>
-      Cuando la zona íntima de la mujer está saludable y libre de molestias, se conoce y se siente el verdadero bienestar. Logrando tener seguridad y confianza para relacionarse en intimidad y con los demás.
+      en el que me conozco y <strong>me siento bien porque mi zona íntima está saludable y libre de molestias.</strong> Logrando tener <strong>seguridad y confianza</strong> para relacionarme en intimidad y con los demás.
     </p>
     <div class="underline"></div>
   </div>
