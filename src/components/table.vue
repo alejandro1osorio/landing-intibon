@@ -39,6 +39,13 @@
       <!-- Tabla como imagen -->
       <div class="vulvo-image-container">
         <img src="../assets/table/tabla.png" alt="Tabla impacto del cuidado íntimo" />
+
+        <div class="vulvo-caption">
+          <p style="color: #005086;"><strong>UK:</strong> United Kingdom. <br><span class="footnote" style="color: #005086;">* Women were asked to identify what elements are positively impacted by performing intimate self-care routines.</span></p>
+          <p style="color: #005086;" class="footnote">
+            Portugal, Russia and Thailand. Intimate self-care was associated with many benefits for women’s physical and mental health, including the perception of being in good health (25% to 78%) and feeling attractive (19% to 47%).
+          </p>
+        </div>
       </div>
     </div>
   </template>
@@ -85,10 +92,6 @@
     border-radius: 55px 60px 20px 55px;
   }
   
-/*   .vulvo-card.reverse {
-    flex-direction: row-reverse;
-  } */
-  
   .icon {
     display: flex;
     align-items: center;
@@ -101,7 +104,6 @@
     object-fit: contain;
   }
   
-  /* Texto alineado naturalmente a la izquierda y multilínea */
   .vulvo-card p {
     font-size: 1rem;
     color: #005086;
@@ -123,7 +125,6 @@
     margin-right: 0.3rem;
   }
   
-  /* Imagen final */
   .vulvo-image-container {
     margin-top: 2rem;
     text-align: center;
@@ -135,8 +136,24 @@
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
+
+  .vulvo-caption {
+  margin-top: 1rem;
+  padding: 0 1rem;
+  font-size: 0.75rem;
+  color: #4d4d4d;
+  text-align: left;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vulvo-caption .footnote {
+  font-size: 0.72rem;
+  color: #666;
+  line-height: 1.4;
+}
   
-  /* Responsive */
   @media (max-width: 600px) {
     .vulvo-container {
       padding: 1rem;
@@ -146,7 +163,6 @@
     .vulvo-card.reverse {
       flex-direction: row !important;
       align-items: flex-start;
-      /* padding: 1.5rem; */
     }
   
     .vulvo-card p {
@@ -158,6 +174,15 @@
     .icon img {
       max-width: 80px;
     }
+
+    .vulvo-caption {
+    font-size: 0.65rem;
+    padding: 0 0.5rem;
+  }
+
+  .vulvo-caption .footnote {
+    font-size: 0.6rem;
+  }
   }
   </style>
   
