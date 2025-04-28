@@ -32,21 +32,28 @@
           </div>
         </div>
         
-        <img src="../assets/productos/producto1.png" alt="Shampoo y Baño Líquido Recién Nacido" class="producto-central" style="width: 70%; padding: 0 56px;"/>
+        <img src="../assets/productos/producto11.png" alt="Shampoo y Baño Líquido Recién Nacido" class="producto-central" style="width: 70%; padding: 0 56px;"/>
         
         <div>
           <div class="box top-right">
-            <img src="../assets/beneficios-productos/icon4.png" alt="Sin Parabenos" />
-            <p style="font-size: 0.7rem;">Hipoalergénico, ginecológica y <strong>dermatológicamente testeado.</strong></p>
+            <img src="../assets/beneficios-productos/icon17.png" alt="Sin Parabenos" />
+            <p style="font-size: 0.7rem;">Hipoalergénico, ginecológica y <strong>dermatológicamente comprobado.</strong></p>
+            <span class="line left"></span>
+          </div>
+
+          <div class="box top-right">
+            <img src="../assets/beneficios-productos/icon5.png" alt="Sin Parabenos" />
+            <p style="font-size: 0.7rem;">Con prebiótico que estimula <strong>el desarrollo y crecimiento de bacterias beneficiosas</strong> de la flora vaginal.</p>
             <span class="line left"></span>
           </div>
 
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right" style="width: 293px;">
-            <img src="../assets/beneficios-productos/icon5.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
-            <p>Con prebiótico que estimula <strong>el desarrollo y crecimiento de bacterias beneficiosas</strong> de la flora vaginal.</p>
+            <img src="../assets/logos-sellos/sello3.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
+            <p>Único jabón íntimo avalado por la <strong>Federación Colombiana de Obstetricia y Ginecología.</strong></p>
             <span class="line left"></span>
           </div>
+          
         </div>
       </div>
       <!-- Contenedor superior derecho -->
@@ -68,7 +75,7 @@
       </div>
 
       <p v-if="activeTab === 'benefits'" class="text-tab">
-        <strong>INTIBON</strong> 0% el jabón íntimo experto en tu zona íntima <strong>hipoalergénico, libre de parabenos, fragancias y colorantes,</strong> con agua de coco natural y <strong>prebióticos.</strong> Limpia suavemente tu zona íntima, manteniendo el equilibrio de su pH natural y eliminando malos olores. Dermatológica y ginecológicamente testeado.
+        <strong>INTIBON</strong> 0% el jabón íntimo experto en tu zona íntima <strong>hipoalergénico, libre de parabenos, fragancias y colorantes,</strong> con agua de coco natural y <strong>prebióticos.</strong> Limpia suavemente tu zona íntima, manteniendo el equilibrio de su pH natural y eliminando malos olores. Dermatológica y ginecológicamente comprobado.
       </p>
       <p v-if="activeTab === 'usage'">Uso diario. Aplique cantidad suficiente sobre la zona genital externa, frote suavemente y enjuague con abundante agua</p>
       <p v-if="activeTab === 'composition'">Water (Aqua), Cocamidopropyl Betaine / Water (Aqua) / Sodium Methyl Cocoyl Taurate, Lauryl Glucoside / Disodium 2-Sulfolaurate, Benzyl Alcohol / Sodium Benzoate / Potassium Sorbate, Coco-Glucoside / Glyceryl Oleate, Glycerin, Inulin / Hydrolyzed Yogurt Protein, PEG-120 Methyl Glucose Dioleate / Propylene Glycol / Water (Aqua), Allantoin, Citric Acid, Lactic Acid, Benzyl Alcohol / Ethylhexylglycerin, Sodium Gluconate, Calendula Officinalis Flower Extract, Caprylic Capric Triglyceride / Hydroxymethoxyphenyl Decanone, Cocos Nucifera (Coconut) Liquid Endosperm / Glycerin / Cocos Nucifera (Coconut) Fruit Juice.</p>

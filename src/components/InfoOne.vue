@@ -8,9 +8,9 @@
     <div class="div2">
       <img src="../assets/otros/tema1.png" alt="Placeholder Image" class="image" />
     </div>
-    <div class="div4">
+    <!-- <div class="div4">
       <img src="../assets/logos-sellos/grupo-sellos.png" alt="Placeholder Image" class="image-centered" />
-    </div>
+    </div> -->
     <div class="div3">
       <img src="../assets/productos/grupo-productos1.png" alt="Placeholder Image" class="image-centered" />
     </div>
@@ -99,11 +99,11 @@ export default {
   margin: 0;
 }
 
-.div4 .image-centered {
+/* .div4 .image-centered {
   max-width: 140%;
   max-height: 140%;
   object-fit: contain;
-}
+} */
 
 .div3 {
   grid-area: 3 / 9 / 5 / 12;
@@ -127,10 +127,10 @@ export default {
     height: 190px;
   }
 
-  .div4 .image-centered {
+/*   .div4 .image-centered {
     max-width: 120%;
     max-width: 120%;
-  }
+  } */
 
   .div3 {
     height: 117%;
@@ -142,10 +142,10 @@ export default {
     height: 90px;
   }
 
-  .div4 .image-centered {
+/*   .div4 .image-centered {
     max-width: 116%;
     max-height: 116%;
-  }
+  } */
 
   .div3 {
     height: 133%;
@@ -181,14 +181,14 @@ export default {
     grid-area: 2 / 1 / 3 / 7;
   }
 
-  .div4 {
+  /* .div4 {
     grid-area: 3 / 1 / 4 / 7;
   }
 
   .div4 .image-centered {
     max-width: 100%;
     max-height: 100%;
-  }
+  } */
 
   .div3 {
     grid-area: 4 / 1 / 5 / 7;

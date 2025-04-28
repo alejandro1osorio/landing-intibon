@@ -7,7 +7,7 @@
       <img src="../../assets/logos-sellos/grupo-sellos.png" alt="Imagen descriptiva" class="title-image"/>
     </div>
 
-    <p class="additional-text">La disminución de los niveles de estrógenos en la menopausia provoca que los tejidos vaginales se vuelvan más <br> secos. Esta afección, que se conoce como atrofia o sequedad vaginal, puede causar dispareunia.<sup>2,3</sup></p>
+    <!-- <p class="additional-text">La disminución de los niveles de estrógenos en la menopausia provoca que los tejidos vaginales se vuelvan más <br> secos. Esta afección, que se conoce como atrofia o sequedad vaginal, puede causar dispareunia.<sup>2,3</sup></p> -->
 
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
@@ -15,21 +15,21 @@
       <div class="image-container">
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
-            <p>Se aplica en la vagina, vulva o pene antes o durante la actividad sexual, <strong>con el fin de reducir la fricción mecánica y, por ende, el trauma generado en los tejidos</strong></p>
+            <p>Se aplica en la vagina, vulva o pene antes o durante la actividad sexual, <strong>con el fin de reducir la fricción mecánica y, por ende, el trauma generado en los tejidos.</strong></p>
             <img src="../../assets/beneficios-productos/icon6.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
           <div class="box top-left" style="flex-direction: row;">
             <p>Su composición se basa en la integración de <strong>agua, silicona, aceite mineral o aceite de plantas.</strong></p>
-            <img src="../../assets/beneficios-productos/icon7.png" alt="Hidrosense" />
+            <img src="../../assets/beneficios-productos/icon28.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
-            <p >Hipoalergénico, ginecológica y dermatológicamente testeado.</p>
-            <img src="../../assets/beneficios-productos/icon10.png" alt="Algodón" />
+            <p >Hipoalergénico, ginecológica y dermatológicamente comprobado.</p>
+            <img src="../../assets/beneficios-productos/icon25.png" alt="Algodón" />
             <span class="line right"></span>
           </div>
         </div>
@@ -37,6 +37,12 @@
         <img src="../../assets/productos/producto2-33.png" alt="Shampoo y Baño Líquido Recién Nacido" style="max-width: 55%; padding: 0 80px;"/>
         
         <div>
+          <div class="box top-right">
+            <img src="../../assets/beneficios-productos/icon27.png" alt="Sin Parabenos" />
+            <p>Único jabón íntimo avalado por la <strong>Federación Colombiana de Obstetricia y Ginecología.</strong></p>
+            <span class="line left"></span>
+          </div>
+
           <div class="box top-right">
             <img src="../../assets/beneficios-productos/icon8.png" alt="Sin Parabenos" />
             <p>Ayuda a facilitar <br> las relaciones sexuales.</p>
@@ -73,7 +79,7 @@
         INTIBON® 45+ Gel Lubricante Íntimo indicado para facilitar las relaciones sexuales y evitar la incomodidad generada por la resequedad de la zona íntima. No altera el pH de la zona vaginal y no mancha la ropa interior. No es agresivo al látex. Libre de fragancias, colorantes, parabenos y sin estrógenos. 
       </p>
       <p v-if="activeTab === 'usage'">Aplicar la cantidad deseada de lubricante sobre la zona íntima o directamente sobre el condón. Aplique nuevamente si es necesario. Vuelva a tapar después de usarse. Gel lubricante para uso en genitales externos.</p>
-      <p v-if="activeTab === 'composition'">(Water), Glycerin, Sodium Benzoate, Potassium Sorbate, Hydroxyethylcellulose, Lactic Acid.</p>
+      <p v-if="activeTab === 'composition'">Aqua (Water), Glycerin, Sodium Benzoate, Potassium Sorbate, Hydroxyethylcellulose, Lactic Acid.</p>
     </div>
 
     <footer>
@@ -144,14 +150,14 @@ export default {
   margin: 10px 0;
 }
 
-.additional-text {
+/* .additional-text {
   text-align: center;
   font-size: 1rem;
   color: #214F79;
   margin: 20px 20px;
   max-width: 80%;
   line-height: 1.2;
-}
+} */
 
 .title-image {
   max-width: 55%;
@@ -354,10 +360,10 @@ footer {
   .box {
     visibility: hidden;
   }
-  .additional-text {
+/*   .additional-text {
     font-size: 0.9rem;
     max-width: 90%;
-  }
+  } */
 
   .content-tab, p {
     font-size: 0.9rem;

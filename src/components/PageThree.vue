@@ -36,7 +36,7 @@
         
         <div>
           <div class="box top-right">
-            <img src="../assets/beneficios-productos/icon4.png" alt="Sin Parabenos" />
+            <img src="../assets/beneficios-productos/icon22.png" alt="Sin Parabenos" />
             <p>Detergente liquido con tensoactivos biodegradables, que elimina malos olores.</p>
             <span class="line left"></span>
           </div>
@@ -49,15 +49,15 @@
 
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
-            <img src="../assets/beneficios-productos/icon5.png" alt="No irrita ojos" style="width: 292px;"/> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
+            <img src="../assets/beneficios-productos/icon23.png" alt="No irrita ojos" style="width: 292px;"/> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
             <p>Ideal para todo tipo de prendas.</p>
             <span class="line left"></span>
           </div>
         </div>
       </div>
-      <!-- Contenedor superior derecho -->
       
     </div>
+    <img class="icono-cloro" style="width: 105px;" src="../assets/beneficios-productos/icon24.png" alt="" srcset="">
 
     <div class="button-group">
       <button @click="setActiveTab('benefits')">Beneficios</button>

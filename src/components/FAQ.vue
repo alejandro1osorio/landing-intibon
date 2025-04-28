@@ -44,10 +44,10 @@ export default {
           title: "¿Intibon tiene productos con prebióticos para la zona íntima?",
           content: "Sí, contamos con jabón íntimo Intibon 0% y Pañitos húmedos íntimos Intibon 0%, que contienen prebióticos, que estimula el desarrollo y crecimiento de bacterias beneficiosas de la flora vaginal.",
         },
-        {
+        /* {
           title: "¿El hidratante vaginal es libre de estrógenos?",
           content: "Sí, el Hidratante Vaginal Intibon 45+ es libre de estrógenos, fragancias y parabenos. Ayuda a lograr un efecto inmediato y duradero combatiendo los síntomas de la sequedad vulvovaginal.",
-        },
+        }, */
       ],
     };
   },

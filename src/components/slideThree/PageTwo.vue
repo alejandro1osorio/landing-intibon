@@ -9,12 +9,12 @@
     <!-- Nuevo Contenedor de Boxes Arriba de la Imagen -->
     <div class="top-box-container">
       <div class="box" style="width: 280px; height: auto; padding-left: 20px; flex-direction: row-reverse; border-radius: 170px 200px 200px 53px;">
-        <img src="../../assets/beneficios-productos/icon11.png" alt="box1" class="box-image" />
+        <img src="../../assets/beneficios-productos/icon29.png" alt="box1" class="box-image" />
           <span class="line" style="transform: rotate(-90deg) translate(-93px, 0px);"></span>
         <p class="box-text"><strong>Único avalado</strong> por la Federación Colombiana de Obstetricia y Ginecología.</p>
       </div>
       <div class="box" style="width: 280px; height: auto; border-radius: 200px 240px 90px 200px;">
-        <img src="../../assets/beneficios-productos/icon20.png" alt="box2" class="box-image" />
+        <img src="../../assets/beneficios-productos/icon30.png" alt="box2" class="box-image" />
         <span class="line" style="transform: rotate(-90deg) translate(-93px, 0px);"></span>
         <p class="box-text"><strong>Incluye 3 aplicadores</strong></p>
       </div>
@@ -30,33 +30,33 @@
     
     <div class="box-container">
       <svg class="curved-line" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: translate(193%, -93%) scale(1.60);">
-        <path d="M20 80 V20 H90" stroke="#41bba9" stroke-width="2" fill="transparent"/>
-        <circle cx="90" cy="20" r="5" fill="#41bba9" stroke="#9dddd3" stroke-width="2"/>
+        <path d="M20 80 V20 H90" stroke="#EEAF00" stroke-width="2" fill="transparent"/>
+        <circle cx="90" cy="20" r="5" fill="#EEAF00" stroke="#B39F68" stroke-width="2"/>
       </svg>
       <div class="box">
-        <img src="../../assets/beneficios-productos/icon13.png" alt="box3" class="box-image" />
+        <img src="../../assets/beneficios-productos/icon31.png" alt="box3" class="box-image" />
 
         <!-- <span class="line" style="transform: rotate(90deg) translate(-93px, 0px);"></span> -->
         <p class="box-text"><strong>Alivia: <br> Ardor</strong></p>
       </div>
       <div class="box">
-        <img src="../../assets/beneficios-productos/icon14.png" alt="box4" class="box-image" />
+        <img src="../../assets/beneficios-productos/icon32.png" alt="box4" class="box-image" />
         <span class="line" style="transform: rotate(90deg) translate(-93px, 0px);"></span>
         <p class="box-text"><strong>Alivia: <br> Picazón</strong></p>
       </div>
       <div class="box">
-        <img src="../../assets/beneficios-productos/icon15.png" alt="box5" class="box-image" />
+        <img src="../../assets/beneficios-productos/icon33.png" alt="box5" class="box-image" />
         <span class="line" style="transform: rotate(90deg) translate(-93px, 0px);"></span>
         <p class="box-text"><strong>Alivia: <br> Flujo <br> anormal</strong></p>
       </div>
       <div class="box">
-        <img src="../../assets/beneficios-productos/icon16.png" alt="box6" class="box-image" />
+        <img src="../../assets/beneficios-productos/icon34.png" alt="box6" class="box-image" />
         <!-- <span class="line" style="transform: rotate(90deg) translate(-93px, 0px);"></span> -->
         <p class="box-text"><strong>Alivia: <br> Mal olor</strong></p>
       </div>
       <svg class="" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: translate(-293%, -96%) scale(1.6);">
-        <path d="M80 80 V20 H70" stroke="#41bba9" stroke-width="2" fill="transparent"/>
-        <circle cx="70" cy="20" r="5" fill="#41bba9" stroke="#9dddd3" stroke-width="2"/>
+        <path d="M80 80 V20 H70" stroke="#EEAF00" stroke-width="2" fill="transparent"/>
+        <circle cx="70" cy="20" r="5" fill="#EEAF00" stroke="#B39F68" stroke-width="2"/>
       </svg>
     </div>
 
@@ -220,7 +220,7 @@ export default {
   position: absolute;
   width: 94px;
   height: 2px;
-  background-color: #41BBA9;
+  background-color: #EEAF00;
   /* top: 50%;
   transform: translateY(-50%); */
 }
@@ -230,8 +230,8 @@ export default {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: #41BBA9;
-  border: 2px solid #9dddd3;
+  background-color: #EEAF00;
+  border: 2px solid rgb(179, 159, 104);
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);

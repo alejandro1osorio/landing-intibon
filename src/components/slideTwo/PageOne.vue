@@ -7,7 +7,7 @@
       <img src="../../assets/logos-sellos/grupo-sellos.png" alt="Imagen descriptiva" class="title-image"/>
     </div>
 
-    <p class="additional-text">La disminución de los niveles de estrógenos en la menopausia provoca que los tejidos vaginales se vuelvan más <br> secos. Esta afección, que se conoce como atrofia o sequedad vaginal, puede causar dispareunia.<sup>2,3</sup></p>
+    <!-- <p class="additional-text">La disminución de los niveles de estrógenos en la menopausia provoca que los tejidos vaginales se vuelvan más <br> secos. Esta afección, que se conoce como atrofia o sequedad vaginal, puede causar dispareunia.<sup>2,3</sup></p> -->
 
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
@@ -16,13 +16,13 @@
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row; width: 302px;">
             <p>Ayuda a brindar un efecto de hidratación y sensación de bienestar en tu zona íntima externa.</p>
-            <img src="../../assets/beneficios-productos/icon9.png" alt="Hidrosense" />
+            <img src="../../assets/beneficios-productos/icon6.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
           <div class="box top-left" style="flex-direction: row;">
             <p><strong>No altera el pH fisiológico </strong>de la zona vaginal y no mancha la ropa interior. No es agresivo al látex.</p>
-            <img src="../../assets/beneficios-productos/icon6.png" alt="Hidrosense" />
+            <img src="../../assets/beneficios-productos/icon7.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
@@ -38,13 +38,13 @@
         
         <div>
           <div class="box top-right">
-            <img src="../../assets/beneficios-productos/icon10.png" alt="Sin Parabenos" />
-            <p>Hipoalergénico, ginecológica y <strong>dermatológicamente testeado.</strong></p>
+            <img src="../../assets/beneficios-productos/icon9.png" alt="Sin Parabenos" />
+            <p>Hipoalergénico, ginecológica y <strong>dermatológicamente comprobado.</strong></p>
             <span class="line left"></span>
           </div>
 
           <div class="box top-right">
-            <img src="../../assets/beneficios-productos/icon7.png" alt="Sin Parabenos" />
+            <img src="../../assets/beneficios-productos/icon25.png" alt="Sin Parabenos" />
             <p>Libre de <strong>estrógenos, fragancias y parabenos.</strong></p>
             <span class="line left"></span>
           </div>
@@ -159,14 +159,14 @@ export default {
   height: auto;
 }
 
-.additional-text {
+/* .additional-text {
   text-align: center;
   font-size: 1rem;
   color: #214F79;
   margin: 20px 20px;
   max-width: 80%;
   line-height: 1.2;
-}
+} */
 
 .image-structure {
   display: grid;
@@ -364,10 +364,10 @@ footer {
   .box {
     visibility: hidden;
   }
-  .additional-text {
+/*   .additional-text {
     font-size: 0.9rem;
     max-width: 90%;
-  }
+  } */
 
   .content-tab, p {
     font-size: 0.9rem;

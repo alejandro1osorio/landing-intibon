@@ -7,7 +7,7 @@
       <img src="../../assets/logos-sellos/grupo-sellos.png" alt="Imagen descriptiva" class="title-image"/>
     </div>
 
-    <p class="additional-text">La disminución de los niveles de estrógenos en la menopausia provoca que los tejidos vaginales se vuelvan más <br> secos. Esta afección, que se conoce como atrofia o sequedad vaginal, puede causar dispareunia.<sup>2,3</sup></p>
+    <!-- <p class="additional-text">La disminución de los niveles de estrógenos en la menopausia provoca que los tejidos vaginales se vuelvan más <br> secos. Esta afección, que se conoce como atrofia o sequedad vaginal, puede causar dispareunia.<sup>2,3</sup></p> -->
 
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
@@ -15,7 +15,7 @@
       <div class="image-container">
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
-            <p>Limpia <strong>suavemente tu zona íntima.</strong></p>
+            <p>Cuidado <strong>hidratante para tu zona íntima.</strong></p>
             <img src="../../assets/beneficios-productos/icon6.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
@@ -29,7 +29,7 @@
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
             <p style="font-size: 0.7rem;">Extracto de avena que <strong>ayuda a reducir molestias </strong>en la piel de la zona íntima.</p>
-            <img src="../../assets/beneficios-productos/icon8.png" alt="Algodón" />
+            <img src="../../assets/beneficios-productos/icon26.png" alt="Algodón" />
             <span class="line right"></span>
           </div>
         </div>
@@ -38,8 +38,14 @@
         
         <div>
           <div class="box top-right">
-            <img src="../../assets/beneficios-productos/icon10.png" alt="Sin Parabenos" />
-            <p>Hipoalergénico, ginecológica y dermatológicamente testeado.</p>
+            <img src="../../assets/beneficios-productos/icon27.png" alt="Sin Parabenos" />
+            <p>Único jabón íntimo avalado por la <strong>Federación Colombiana de Obstetricia y Ginecología.</strong></p>
+            <span class="line left"></span>
+          </div>
+
+          <div class="box top-right">
+            <img src="../../assets/beneficios-productos/icon25.png" alt="Sin Parabenos" />
+            <p>Hipoalergénico, ginecológica y dermatológicamente comprobado.</p>
             <span class="line left"></span>
           </div>
 
@@ -145,14 +151,14 @@ export default {
 }
 
 
-.additional-text {
+/* .additional-text {
   text-align: center;
   font-size: 1rem;
   color: #214F79;
   margin: 20px 20px;
   max-width: 80%;
   line-height: 1.2;
-}
+} */
 
 .title-image {
   max-width: 55%;
@@ -355,10 +361,10 @@ footer {
   .box {
     visibility: hidden;
   }
-  .additional-text {
+/*   .additional-text {
     font-size: 0.9rem;
     max-width: 90%;
-  }
+  } */
 
   .content-tab, p {
     font-size: 0.9rem;
