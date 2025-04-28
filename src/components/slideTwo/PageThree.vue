@@ -38,21 +38,21 @@
         
         <div>
           <div class="box top-right">
-            <img src="../../assets/beneficios-productos/icon27.png" alt="Sin Parabenos" />
-            <p>Único jabón íntimo avalado por la <strong>Federación Colombiana de Obstetricia y Ginecología.</strong></p>
-            <span class="line left"></span>
-          </div>
-
-          <div class="box top-right">
             <img src="../../assets/beneficios-productos/icon8.png" alt="Sin Parabenos" />
             <p>Ayuda a facilitar <br> las relaciones sexuales.</p>
             <span class="line left"></span>
           </div>
 
+          <div class="box top-right">
+            <img src="../../assets/beneficios-productos/icon7.png" alt="Sin Parabenos" />
+            <p>Libre de fragancias, colorantes, <br>parabenos y sin estrógenos.</p>
+            <span class="line left"></span>
+          </div>
+
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
-            <img src="../../assets/beneficios-productos/icon7.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
-            <p>Libre de fragancias, colorantes, <br>parabenos y sin estrógenos.</p>
+            <img src="../../assets/beneficios-productos/icon27.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
+            <p>Único lubricante <strong>avalado por la Federación Colombiana de Obstetricia y Ginecología.</strong></p>
             <span class="line left"></span>
           </div>
         </div>

@@ -22,7 +22,7 @@
 
           <div class="box top-left" style="flex-direction: row;">
             <p>Su fórmula contiene un ingrediente <strong>especializado</strong> para el <strong>control de malos olores.</strong></p>
-            <img src="../../assets/beneficios-productos/icon7.png" alt="Hidrosense" />
+            <img src="../../assets/beneficios-productos/icon35.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
@@ -38,20 +38,20 @@
         
         <div>
           <div class="box top-right">
-            <img src="../../assets/beneficios-productos/icon27.png" alt="Sin Parabenos" />
-            <p>Único jabón íntimo avalado por la <strong>Federación Colombiana de Obstetricia y Ginecología.</strong></p>
-            <span class="line left"></span>
-          </div>
-
-          <div class="box top-right">
             <img src="../../assets/beneficios-productos/icon25.png" alt="Sin Parabenos" />
             <p>Hipoalergénico, ginecológica y dermatológicamente comprobado.</p>
             <span class="line left"></span>
           </div>
 
+          <div class="box top-right">
+            <img src="../../assets/beneficios-productos/icon27.png" alt="Sin Parabenos" />
+            <p>Único jabón íntimo avalado por la <strong>Federación Colombiana de Obstetricia y Ginecología.</strong></p>
+            <span class="line left"></span>
+          </div>
+
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
-            <img src="../../assets/beneficios-productos/icon9.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
+            <img src="../../assets/beneficios-productos/icon36.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
             <p>Extracto de caléndula que brinda <strong>hidratación.</strong></p>
             <span class="line left"></span>
           </div>

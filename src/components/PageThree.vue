@@ -27,7 +27,7 @@
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
             <p>Extracto de algodón para brindar suavidad a la tela.</p>
-            <img src="../assets/beneficios-productos/icon3.png" alt="Algodón" />
+            <img src="../assets/beneficios-productos/icon37.png" alt="Algodón" />
             <span class="line right"></span>
           </div>
         </div>

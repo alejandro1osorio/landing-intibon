@@ -16,13 +16,13 @@
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row; width: 302px;">
             <p>Ayuda a brindar un efecto de hidratación y sensación de bienestar en tu zona íntima externa.</p>
-            <img src="../../assets/beneficios-productos/icon6.png" alt="Hidrosense" />
+            <img src="../../assets/beneficios-productos/icon9.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
           <div class="box top-left" style="flex-direction: row;">
             <p><strong>No altera el pH fisiológico </strong>de la zona vaginal y no mancha la ropa interior. No es agresivo al látex.</p>
-            <img src="../../assets/beneficios-productos/icon7.png" alt="Hidrosense" />
+            <img src="../../assets/beneficios-productos/icon6.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
 
@@ -38,13 +38,13 @@
         
         <div>
           <div class="box top-right">
-            <img src="../../assets/beneficios-productos/icon9.png" alt="Sin Parabenos" />
+            <img src="../../assets/beneficios-productos/icon25.png" alt="Sin Parabenos" />
             <p>Hipoalergénico, ginecológica y <strong>dermatológicamente comprobado.</strong></p>
             <span class="line left"></span>
           </div>
 
           <div class="box top-right">
-            <img src="../../assets/beneficios-productos/icon25.png" alt="Sin Parabenos" />
+            <img src="../../assets/beneficios-productos/icon7.png" alt="Sin Parabenos" />
             <p>Libre de <strong>estrógenos, fragancias y parabenos.</strong></p>
             <span class="line left"></span>
           </div>
