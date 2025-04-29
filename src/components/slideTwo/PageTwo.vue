@@ -44,15 +44,15 @@
           </div>
 
           <div class="box top-right">
-            <img src="../../assets/beneficios-productos/icon27.png" alt="Sin Parabenos" />
-            <p>Único jabón íntimo avalado por la <strong>Federación Colombiana de Obstetricia y Ginecología.</strong></p>
+            <img src="../../assets/beneficios-productos/icon36.png" alt="Sin Parabenos" />
+            <p>Extracto de caléndula que brinda <strong>hidratación.</strong></p>
             <span class="line left"></span>
           </div>
 
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
-            <img src="../../assets/beneficios-productos/icon36.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
-            <p>Extracto de caléndula que brinda <strong>hidratación.</strong></p>
+            <img src="../../assets/beneficios-productos/icon27.png" alt="No irrita ojos" /> <!-- style="transform: translate(3%, 5%) scale(1.30);" -->
+            <p>Único jabón íntimo avalado por la <strong>Federación Colombiana de Obstetricia y Ginecología.</strong></p>
             <span class="line left"></span>
           </div>
         </div>

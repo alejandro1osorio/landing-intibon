@@ -117,8 +117,8 @@ export default {
 }
 
 .div3 .image-centered {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 101%;
+  max-height: 111%;
   object-fit: contain;
 }
 
