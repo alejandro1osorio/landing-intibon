@@ -2,17 +2,19 @@
   <div id="app">
     <Hero />
     <TextComponent />
-    <Table />
     <!-- tema 1 -->
-    <InfoOne />
+    <!-- <InfoOne /> -->
+    <InfoOneTest />
     <Slider />
 
     <!-- tema 2 -->
-    <InfoTwo />
+    <!-- <InfoTwo /> -->
+    <InfoTwoTest />
     <SliderTwo />
 
     <!-- tema 3 -->
-    <InfoThree />
+    <!-- <InfoThree /> -->
+    <InfoThreeTest />
     <SliderThree />
 
     <Blog />
@@ -24,7 +26,6 @@
 <script>
 import Hero from "./components/Hero.vue";
 import TextComponent from "./components/TextComponent.vue";
-import Table from "./components/table.vue";
 
 /* tema 1 */
 import InfoOne from "./components/InfoOne.vue";
@@ -41,23 +42,28 @@ import SliderThree from "./components/SliderThree.vue";
 import Blog from "./components/Blog.vue";
 import FAQ from "./components/FAQ.vue";
 import Footer from "./components/Footer.vue";
+import InfoOneTest from "./components/InfoOneTest.vue";
+import InfoTwoTest from "./components/InfoTwoTest.vue";
+import InfoThreeTest from "./components/InfoThreeTest.vue";
 
 export default {
   name: "App",
   components: {
     Hero,
     TextComponent,
-    Table,
     /* tema 1 */
-    InfoOne,
+    /*InfoOne,*/
+    InfoOneTest,
     Slider,
 
     /* tema 2 */
-    InfoTwo,
+    /* InfoTwo, */
+    InfoTwoTest,
     SliderTwo,
     
     /* tema 3 */
-    InfoThree,
+    /* InfoThree, */
+    InfoThreeTest,
     SliderThree,
 
     Blog,
