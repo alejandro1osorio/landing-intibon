@@ -1,16 +1,21 @@
 <template>
   <div class="parent" id="50color">
     <div class="div1">
-      <h1 class="title">Higiene <strong style="border-bottom: 5px solid #008EB4;">Íntima</strong></h1>
+      <div class="title-wrapper">
+        <h1 class="title">
+          Higiene <strong style="border-bottom: 5px solid #008EB4;">Íntima</strong>
+        </h1>
+        <p class="subtitle">
+          El cuidado Íntimo incluye utilizar productos de higiene intima adecuados, así como tambien 
+          evitar productos y conductas innecesarias y/o perjudiciales. 
+        </p>
+      </div>
     </div>
     <div class="div2">
       <img src="../assets/otros/tema1.png" alt="Placeholder Image" class="image" />
     </div>
     <div class="div3">
       <img src="../assets/productos/grupo-productos1.png" alt="Placeholder Image" class="image-centered" />
-    </div>
-    <div class="div4">
-      <img src="" alt="Placeholder Image" class="image-centered" />
     </div>
   </div>
 </template>
@@ -32,11 +37,10 @@ export default {
   height: 100vh;
   padding: 0;
   box-sizing: border-box;
-  /* background-color: #f4f4f4; */
 }
 
 .div1 {
-  grid-area: 1 / 1 / 2 / 13;  /* 1, 2, 2, 11 */ 
+  grid-area: 1 / 1 / 2 / 13;
   color: white;
   display: flex;
   align-items: center;
@@ -45,6 +49,11 @@ export default {
   margin: 0;
   position: relative;
   text-align: center;
+}
+
+.title-wrapper {
+  max-width: 700px;
+  padding: 0 16px;
 }
 
 .top-line {
@@ -61,6 +70,19 @@ export default {
   font-size: 2em;
   font-weight: 300;
   color: #214F79;
+  margin-bottom: 0.4em;
+}
+
+.subtitle {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #4b678a;
+  margin: 0 auto;
+  /* Mantener visualmente en 2 líneas máximo */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .div2 {
@@ -95,34 +117,23 @@ export default {
   object-fit: contain;
 }
 
-.div4 {
-  grid-area: 5 / 8 / 6 / 13;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5em;
-  height: 80px;
-  margin: 0;
-}
+/* Ya no existe div4, se elimina toda su referencia */
 
-.div4 .image-centered {
-  max-width: 140%;
-  max-height: 140%;
-  object-fit: contain;
-}
-
+/* Responsivo */
 @media screen and (min-width: 1400px) {
   /* Estilos para monitores muy grandes */
-  .div4 {
-    height: 110px;
+  .div1 .title {
+    font-size: 2.4em;
+  }
+  .subtitle {
+    font-size: 1.05rem;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1399px) {
-  /* portatiles con pantallas medianas */
-  .div4 {
-    height: 90px;
+  /* portátiles con pantallas medianas */
+  .div1 .title {
+    font-size: 2.1em;
   }
 }
 
@@ -135,10 +146,15 @@ export default {
 
   .div1 {
     grid-area: 1 / 1 / 2 / 7;
+    padding: 12px 0;
   }
 
   .div1 .title {
     font-size: 1.5em;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
   }
 
   .div2 {
@@ -147,10 +163,6 @@ export default {
 
   .div3 {
     grid-area: 3 / 1 / 4 / 7;
-  }
-
-  .div4 {
-    grid-area: 4 / 1 / 5 / 7;
   }
 
   .top-line {
