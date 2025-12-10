@@ -167,5 +167,9 @@ export default {
   .top-line {
     width: 190px;
   }
+
+  .div3 .image-centered {
+    max-width: 93%;
+  }
 }
 </style>

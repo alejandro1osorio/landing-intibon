@@ -137,5 +137,9 @@ export default {
   .div3 {
     grid-area: 3 / 1 / 4 / 7;
   }
+
+  .div3 .image-centered {
+    max-width: 93%;
+  }
 }
 </style>
